@@ -1,0 +1,584 @@
+dataset,prompt_type,question,ground_truth,model_response,f1_score,exact_match,reasoning_steps,has_has_step_keywords,has_has_calculation,has_has_conclusion,has_is_coherent
+commonsense,standard,"What is likely to happen to someone who is learning?
+
+A. overconfidence
+B. effectiveness
+C. knowing more
+D. head grows larger
+E. growth",knowing more,"The most appropriate answer to the question ""What is likely to happen to someone who is learning?"" is:
+
+C. knowing more
+
+While options like B (effectiveness) and E (growth) could also be relevant in certain contexts, ""knowing more"" directly reflects the outcome of the learning process.",1.0,True,0,False,False,False,True
+commonsense,standard,"A gentleman is carrying equipment for golf, what is he likely to have?
+
+A. club
+B. assembly hall
+C. meditation center
+D. meeting
+E. church",club,"The correct answer is A. club.
+
+A gentleman carrying equipment for golf is likely to have a golf club, which is a key piece of equipment used in the game of golf. The other options (assembly hall, meditation center, meeting, church) are not related to golf equipment.",1.0,True,0,False,False,False,True
+commonsense,standard,"The man working in the attic swatted away a bee, but soon the single bee was an entire what?
+
+A. swarm
+B. pack
+C. countryside
+D. soft drink
+E. field of flowers",swarm,"The correct answer is A. swarm. 
+
+The phrase ""a single bee was an entire"" suggests that the single bee multiplied or was accompanied by many others, which is best described by the term ""swarm."" A swarm refers to a large group of bees. The other options do not fit the context of bees multiplying or gathering.",1.0,True,0,False,False,False,True
+commonsense,standard,"If a person with mental illness stops treatment what will likely happen?
+
+A. managed
+B. dancing
+C. recur
+D. effectively treated
+E. cause suffering",recur,"If a person with mental illness stops treatment, the most likely outcome is that their condition may **C. recur**. 
+
+Stopping treatment can lead to a return of symptoms or worsening of the mental illness, which can also **E. cause suffering** for the individual. Therefore, both C and E are valid outcomes, but C is the most direct answer to the question regarding what will likely happen if treatment is stopped.",1.0,True,0,True,False,True,True
+commonsense,standard,"The program kept getting errors, the amateur end user began to what?
+
+A. get mad
+B. compile
+C. debug
+D. write code
+E. get frustrated",get frustrated,"The best answer is E. get frustrated.
+
+Reasoning: The context suggests that the amateur end user is experiencing difficulties with the program due to errors. In such situations, it is common for users to feel frustration, especially if they lack the technical skills to resolve the issues themselves. While ""get mad"" (A) could also be a possibility, ""get frustrated"" (E) is a more common and appropriate response to encountering persistent errors in a program. The other options (B, C, D) imply actions that a more experienced user might take, rather than an amateur end user.",1.0,True,0,False,False,False,True
+commonsense,standard,"Sometimes a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath why?
+
+A. flooding
+B. drowning
+C. wet skin
+D. get wet
+E. rash",rash,"The correct answer is **E. rash**.
+
+Having a bath is important for personal hygiene, and not bathing can lead to skin issues such as rashes. Even if a person has a fear of water or dislikes being wet, maintaining cleanliness is essential to prevent skin irritations and infections.",1.0,True,0,False,False,False,True
+commonsense,standard,"Where is a great place to buy fresh fruit?
+
+A. san francisco
+B. refrigerator
+C. big box retailer
+D. tree
+E. market",market,"The best answer is E. market. 
+
+Here's the reasoning:
+- A market typically offers a variety of fresh fruits and is specifically designed for selling food items, including fresh produce.
+- While San Francisco (A) may have markets, it is a city and not a specific place to buy fruit.
+- A refrigerator (B) is where you store fruit, not where you buy it.
+- A big box retailer (C) may sell fruit, but they are not specialized in fresh produce like a market.
+- A tree (D) is where fruit grows, but it is not a place to buy fruit.
+
+Therefore, E. market is the most appropriate choice.",1.0,True,0,True,False,True,True
+commonsense,standard,"Which large land mass is home to the most monkeys?
+
+A. amazon basin
+B. friend's house
+C. lift number 3
+D. research laboratory
+E. african continent",african continent,"The correct answer is:
+
+A. amazon basin
+
+The Amazon Basin is home to a diverse range of wildlife, including many species of monkeys. The African continent also has a variety of monkeys, but the Amazon Basin is particularly known for its rich biodiversity and large populations of various monkey species.",0.0,False,0,False,False,False,True
+commonsense,standard,"Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did it put it?
+
+A. trash
+B. floor
+C. subway
+D. ground
+E. lawn",trash,"The most logical answer is A. trash. When someone finishes reading a newspaper and wants to dispose of it, they typically throw it away, which would mean putting it in the trash. The other options (floor, subway, ground, lawn) do not imply a common action of disposing of the newspaper.",1.0,True,0,False,False,False,True
+commonsense,standard,"How does going jogging generally affect one's self esteem?
+
+A. feel better
+B. feel pride
+C. sweating
+D. ocean
+E. arthritis",feel better,"The best answer to how going jogging generally affects one's self-esteem is:
+
+A. feel better
+
+Jogging can lead to improved mood and self-esteem due to the release of endorphins, which are known to enhance feelings of well-being. While feeling pride (B) can also be a result of jogging, ""feel better"" encompasses a broader range of positive effects on self-esteem. The other options (C, D, E) do not directly relate to the impact of jogging on self-esteem.",1.0,True,0,False,False,False,True
+commonsense,standard,"Minerals can be obtained in what way for a person who avoids leafy greens?
+
+A. multivitamin
+B. farm
+C. michigan
+D. earth
+E. ore",multivitamin,"The best option for a person who avoids leafy greens and is looking to obtain minerals is:
+
+A. multivitamin
+
+Multivitamins can provide essential minerals and vitamins that one might miss from their diet, especially if they are not consuming leafy greens. The other options do not directly relate to obtaining minerals in a practical way for an individual.",1.0,True,0,False,False,False,True
+commonsense,standard,"If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?
+
+A. gay bar
+B. market
+C. grocery store
+D. refrigerator
+E. container",gay bar,"The best answer to the question is:
+
+A. gay bar
+
+This is because calling someone a fruit as an insult can be interpreted as a derogatory term for someone who is gay. A gay bar is a place where LGBTQ+ individuals gather, and using such an insult there would likely be seen as particularly offensive and inappropriate. In contrast, the other options (market, grocery store, refrigerator, container) are more neutral environments where the insult may not carry the same weight or be as contextually inappropriate.",1.0,True,0,True,False,False,True
+commonsense,standard,"The extremely large cargo plane could only land at a specialized runway, these were only located at a what?
+
+A. back yard
+B. bowling alley
+C. city
+D. military base
+E. fashion show",military base,"The correct answer is D. military base.
+
+Reasoning: Extremely large cargo planes typically require specialized runways that can accommodate their size and weight. Military bases often have such runways designed for large aircraft, making them suitable locations for landing these types of planes. The other options (back yard, bowling alley, city, fashion show) do not provide the necessary infrastructure for landing large cargo planes.",1.0,True,0,False,False,False,True
+commonsense,standard,"If you own a cat where is the last place you'd want to find it?
+
+A. trouble
+B. dog's mouth
+C. backyard
+D. nature
+E. home",dog's mouth,"The last place you'd want to find your cat is B. dog's mouth. This scenario implies danger for the cat, as being in a dog's mouth would likely mean harm. The other options, while they may not be ideal, do not suggest immediate danger to the cat.",0.24000000000000002,True,0,False,False,False,True
+commonsense,standard,"John loved to paint houses.  How did he usually do it?
+
+A. clothes get stained
+B. with brush
+C. wallpaper
+D. electrical circuit
+E. draw",with brush,"The best answer to the question ""How did he usually do it?"" in the context of painting houses is:
+
+B. with brush
+
+This option directly relates to the act of painting, while the other options do not.",1.0,True,0,False,False,False,True
+commonsense,standard,"Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?
+
+A. shady places
+B. screened porch
+C. pots
+D. ceramics
+E. clay pot",shady places,"The correct answer is:
+
+A. shady places
+
+Ficus trees can provide shade when planted in a yard, making summer more bearable by creating cooler areas.",1.0,True,0,False,False,False,True
+commonsense,standard,"Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?
+
+A. economic boom
+B. advance knowledge
+C. produce sound
+D. teach
+E. follow instructions",advance knowledge,"The correct answer is B. advance knowledge.
+
+The sentence suggests that despite having quick access to information (which computers provide), people seem to be getting ""duller."" The phrase ""advance knowledge"" fits well in this context, as it implies that while we have access to a wealth of information, it may not necessarily lead to deeper understanding or critical thinking skills.",1.0,True,0,False,False,False,True
+commonsense,standard,"Sam couldn't get back to sleep because of a dream he had.  It was a what?
+
+A. awake
+B. horror
+C. dreamworker
+D. reality
+E. nightmare",nightmare,"The correct answer is E. nightmare. 
+
+A nightmare is a type of dream that causes feelings of fear, anxiety, or distress, which would explain why Sam couldn't get back to sleep. The other options do not fit the context of a dream that would disturb sleep.",1.0,True,0,False,False,False,True
+commonsense,standard,"Sam was a stranger.  Even so, Mark treated him like what?
+
+A. friend
+B. family
+C. known person
+D. park
+E. outsider",family,"The best answer is A. friend. 
+
+Mark treated Sam, who was a stranger, with kindness and respect, similar to how one would treat a friend. The other options do not fit as well in the context of treating a stranger positively.",0.0,False,0,False,False,False,True
+commonsense,standard,"Where can you find a number of wind instruments together in public?
+
+A. music store
+B. create music
+C. zoo
+D. music room
+E. symphony",symphony,"The best answer is A. music store. 
+
+Here's the reasoning:
+- A music store typically has a variety of musical instruments, including wind instruments, available for sale or display.
+- ""Create music"" (B) is not a specific location where instruments are found.
+- A zoo (C) is not related to musical instruments.
+- A music room (D) may have instruments, but it is usually a private or specific space rather than a public place.
+- A symphony (E) features musicians playing instruments, but it does not serve as a location where instruments are gathered for public viewing or sale.
+
+Therefore, the most appropriate answer is A. music store.",0.0,False,0,True,False,True,True
+commonsense,standard,"What do humans do to other humans after death?
+
+A. celebrate
+B. burial
+C. life
+D. rebirth
+E. decomposition",burial,"The most appropriate answer to the question ""What do humans do to other humans after death?"" is:
+
+B. burial
+
+While other options like ""celebrate"" (A) can occur in some cultures as part of memorial services, the act of burial (B) is a common practice in many societies. ""Decomposition"" (E) is a natural process that occurs after death but is not something humans actively do to others. ""Life"" (C) and ""rebirth"" (D) are not actions taken after death. Therefore, the best answer is B. burial.",1.0,True,0,True,False,True,True
+commonsense,standard,"The shark actually counted as evidence, so where did the legal team bring it?
+
+A. court room
+B. shallow waters
+C. poker game
+D. sea world
+E. pond arena",court room,"The correct answer is A. court room. 
+
+In legal contexts, evidence is typically presented in a courtroom during a trial. The mention of the shark being counted as evidence suggests that it was brought to the legal proceedings for consideration.",1.0,True,0,False,False,False,True
+commonsense,standard,"How can someone be let into a brownstone?
+
+A. brooklyn
+B. ring
+C. subdivision
+D. bricks
+E. new york city",ring,"To determine how someone can be let into a brownstone, we need to consider the context of the options provided. A brownstone is a type of townhouse that is often found in urban areas, particularly in cities like New York City.
+
+- **A. brooklyn**: This is a borough in New York City where many brownstones are located, but it doesn't directly answer how someone can be let in.
+- **B. ring**: This could refer to a doorbell or intercom system, which is a common way to gain entry into a brownstone.
+- **C. subdivision**: This term refers to a type of residential development and is not relevant to brownstones.
+- **D. bricks**: While brownstones are made of brown sandstone or brick, this does not pertain to the method of entry.
+- **E. new york city**: This is the city where brownstones are commonly found, but again, it does not answer the question of how to gain entry.
+
+The most logical answer to the question of how someone can be let into a brownstone is **B. ring**, as it suggests the action of using a doorbell or intercom to request entry. 
+
+So, the answer is: **B. ring**.",0.0,False,0,False,False,True,True
+commonsense,standard,"The neighborhood had a great sense of community, there was always a crowd at the landing of the what?
+
+A. stairwell
+B. arena
+C. ocean
+D. airport
+E. apartment building",apartment building,"To determine the best answer, we need to consider the context of the phrase ""the landing of the."" 
+
+- A. **stairwell**: This could imply a place where people gather, but it feels more private and less likely to have a ""great sense of community.""
+- B. **arena**: This is a public space where crowds gather, but it doesn't fit the phrase ""landing of the.""
+- C. **ocean**: This doesn't fit the phrase ""landing of the"" either.
+- D. **airport**: While airports can have crowds, ""landing"" typically refers to aircraft, not a community gathering.
+- E. **apartment building**: This fits well because ""landing"" can refer to a landing area in an apartment building where residents might gather, fostering a sense of community.
+
+Given these considerations, the best answer is:
+
+**E. apartment building**",1.0,True,0,True,False,False,True
+commonsense,standard,"Where would stones not be arranged in a path?
+
+A. quarries
+B. field
+C. park
+D. bridge
+E. made from rocks",field,"To determine where stones would not be arranged in a path, let's analyze each option:
+
+A. **Quarries** - Quarries are places where stones are extracted from the ground. They are not typically arranged in a path.
+
+B. **Field** - A field is an open area, and while stones can be found in a field, they are not necessarily arranged in a path.
+
+C. **Park** - Parks often have paths made of stones or gravel, so stones can be arranged in a path here.
+
+D. **Bridge** - Bridges can be made of stones or have stone paths, so stones can be arranged in a path here.
+
+E. **Made from rocks** - This phrase suggests something constructed from rocks, which could imply a path made of stones.
+
+Based on this analysis, the best answer is:
+
+**A. quarries** 
+
+Stones in quarries are not arranged in a path; they are extracted and not typically organized for walking.",0.0,False,0,False,False,True,True
+commonsense,standard,"Where can you store you spare linens near your socks?
+
+A. hospital
+B. chest
+C. home
+D. dresser drawers
+E. cabinet",dresser drawers,"The best answer is D. dresser drawers. 
+
+Dresser drawers are commonly used to store clothing items, including socks and linens, making them a suitable place to keep spare linens near your socks.",1.0,True,0,False,False,False,True
+commonsense,standard,"Where do you keep extra clothing on a hike?
+
+A. person
+B. hamper
+C. closet
+D. upstairs
+E. backpack",backpack,"The best answer is E. backpack. 
+
+When going on a hike, extra clothing is typically kept in a backpack for easy access and portability.",1.0,True,0,False,False,False,True
+commonsense,standard,"The homeowner frowned at the price of gas, what did he have to do later?
+
+A. own home
+B. mail property tax payments
+C. board windows
+D. cut grass
+E. receive mail",cut grass,"The context of the homeowner frowning at the price of gas suggests that he is concerned about expenses. Among the options provided, the most relevant action that a homeowner might have to do later, which could be related to financial responsibilities, is:
+
+B. mail property tax payments
+
+This option aligns with the theme of financial obligations that a homeowner faces, especially when they are already concerned about costs like gas.",0.0,False,0,False,False,False,True
+commonsense,standard,"What is happening while he's playing basketball for such a long time?
+
+A. sweating
+B. pain
+C. having fun
+D. medium
+E. knee injury",sweating,"The most appropriate answer to the question ""What is happening while he's playing basketball for such a long time?"" is:
+
+C. having fun
+
+This option suggests a positive experience that is likely to occur during a long game of basketball. While sweating, pain, or a knee injury could also happen, they are not guaranteed or universally applicable to everyone playing basketball. ""Medium"" does not fit the context. Therefore, ""having fun"" is the best choice.",0.0,False,0,True,False,True,True
+commonsense,standard,"Where can you buy a magazine, paper or gum?
+
+A. bank
+B. rack
+C. bed
+D. newsstand
+E. bus depot",newsstand,"The best answer is D. newsstand. 
+
+A newsstand is a place specifically designed for selling magazines, newspapers, and often snacks like gum. While you might find magazines or papers in other locations like a bus depot or a rack, a newsstand is the most appropriate choice for all three items listed.",1.0,True,0,False,False,False,True
+commonsense,standard,"Where can books be read?
+
+A. cabinet
+B. backpack
+C. table
+D. shelf
+E. sink",table,"The best answer is D. shelf. 
+
+Books are typically stored on shelves, making them easily accessible for reading. While you can technically read books in various places (like a table or even a backpack if you take them out), the most appropriate answer in the context of where books are commonly found is a shelf.",0.0,False,0,False,False,False,True
+commonsense,standard,"Where do you keep musical instrument so it doesn't get scratched?
+
+A. bank
+B. orchestra
+C. case
+D. music room
+E. movie",case,"The best answer is C. case. 
+
+A case is specifically designed to protect musical instruments from scratches and damage when they are not in use.",1.0,True,0,False,False,False,True
+commonsense,standard,"What can eating hamburger cause immediately after eating it?
+
+A. tasty
+B. health problems
+C. eat cake
+D. indigestion
+E. gain weight",indigestion,"The most appropriate answer to the question ""What can eating hamburger cause immediately after eating it?"" is:
+
+D. indigestion
+
+While eating a hamburger can also lead to health problems or weight gain over time, indigestion is a more immediate effect that some people may experience right after consuming a heavy or greasy meal like a hamburger.",1.0,True,0,False,False,False,True
+commonsense,standard,"To play sports professionally you must do what very often?
+
+A. wash your clothes
+B. get in shape
+C. practice
+D. take off uniform
+E. stretch",practice,"To play sports professionally, you must do what very often?
+
+The best answer is:
+
+C. practice
+
+While getting in shape (B), stretching (E), and other activities are important, the key aspect of becoming a professional athlete is consistent practice to improve skills and performance.",1.0,True,0,False,False,False,True
+commonsense,standard,"Where can you buy a clock, clothing and wrenches?
+
+A. counter
+B. train station
+C. school room
+D. desk
+E. department store",department store,"The best answer is E. department store.
+
+Here's the reasoning:
+
+- A department store typically sells a wide variety of items, including clocks, clothing, and tools like wrenches.
+- The other options (counter, train station, school room, desk) do not generally offer all three types of items for sale. 
+
+Therefore, the most appropriate choice is E. department store.",1.0,True,0,True,False,True,True
+commonsense,standard,"What is likely to have a better school cafeteria?
+
+A. high school
+B. canteen
+C. polytechnic
+D. large room
+E. all kinds of schools",polytechnic,"To determine which option is likely to have a better school cafeteria, we can analyze each choice:
+
+A. **High school** - High schools typically have dedicated cafeterias that serve a variety of meals to a large number of students. They often have more resources and funding compared to other types of schools.
+
+B. **Canteen** - This term is quite general and can refer to a food service area in various settings, including schools, but it does not specify a particular type of school or institution.
+
+C. **Polytechnic** - Polytechnics are higher education institutions that may have cafeterias, but they might not be as extensive or well-funded as those in larger high schools.
+
+D. **Large room** - This option does not specify a cafeteria or food service area and is too vague to determine quality.
+
+E. **All kinds of schools** - This option suggests that every type of school has a cafeteria, but it does not imply that they are all of equal quality.
+
+Considering these points, the most likely option to have a better school cafeteria is:
+
+**A. high school** 
+
+High schools generally have more resources and a larger student body, which often leads to better cafeteria services.",0.0,False,0,False,False,False,True
+commonsense,standard,"By learning about the world, many poor college students gain what?
+
+A. pleasure
+B. greater mobility
+C. desire to travel
+D. global warming
+E. increased security",desire to travel,"The best answer to the question ""By learning about the world, many poor college students gain what?"" is:
+
+B. greater mobility
+
+This option suggests that by gaining knowledge and understanding of the world, students can improve their opportunities and prospects, which can lead to greater social and economic mobility.",0.0,False,0,False,False,False,True
+commonsense,standard,"A traveler laments the fact that mass transit is limited in his city when his groceries get soaked by the rain as he waits where?
+
+A. bus stop
+B. library
+C. motel
+D. airport
+E. subway",bus stop,"The traveler is likely waiting at a **bus stop**. This is a common place where people wait for public transportation, and it is also a location where one might be exposed to the rain if there is no shelter. The other options (library, motel, airport, subway) do not fit as well with the context of waiting for mass transit while getting groceries soaked by the rain. 
+
+Therefore, the answer is **A. bus stop**.",0.4444444444444445,True,0,True,False,True,True
+commonsense,standard,"Why might a person be known as a liar?
+
+A. have no home
+B. false information
+C. hungry
+D. made fun of
+E. brain tumor",false information,"The correct answer is B. false information.
+
+A person might be known as a liar if they consistently provide false information or make statements that are not true. This behavior leads others to perceive them as untrustworthy or dishonest. The other options do not directly relate to the concept of lying.",1.0,True,0,False,False,False,True
+commonsense,standard,"What would you be building if you designed a place for an annoying critter to stay?
+
+A. spread disease
+B. swamp
+C. fly away
+D. cat condo
+E. bug campers",bug campers,"If you were designing a place for an annoying critter to stay, the most fitting answer would be:
+
+**B. swamp**
+
+A swamp is often associated with various annoying critters, such as mosquitoes and other insects, which thrive in such environments. The other options do not directly relate to creating a habitat for annoying critters.",0.0,False,0,False,False,False,True
+commonsense,standard,"Where is a statute found on a platform?
+
+A. below
+B. arena
+C. concert hall
+D. museum
+E. building",museum,"The correct answer is A. below. 
+
+A statute is typically a three-dimensional work of art, often found on a pedestal or base, which can be described as being ""below"" the viewer's line of sight when it is placed on a platform. The other options do not specifically relate to the placement of a statute on a platform.",0.0,False,0,False,False,False,True
+commonsense,standard,"After killing people, the murderer went to church after feeling what?
+
+A. murder
+B. remorse
+C. religious
+D. retaliation
+E. anguish",remorse,"The most fitting answer to the question is B. remorse. 
+
+Here's the reasoning:
+
+- The context suggests that after committing a serious crime (murder), the murderer might feel a sense of guilt or regret, which is commonly referred to as remorse. 
+- The act of going to church often signifies a desire for forgiveness or a need to seek solace, which aligns with feeling remorse.
+- The other options (A, C, D, E) do not directly connect to the act of going to church in the same way that remorse does.
+
+Therefore, the answer is B. remorse.",1.0,True,0,True,False,True,True
+commonsense,standard,"What is a place that has large cable hanging overhead?
+
+A. radio shack
+B. electrical device
+C. shower
+D. substation
+E. television",substation,"The best answer is D. substation. 
+
+A substation typically has large cables hanging overhead as it is part of the electrical distribution system, where electricity is transformed and distributed. The other options do not typically involve large overhead cables.",1.0,True,0,False,False,False,True
+commonsense,standard,"When an elderly person needs help performing daily tasks, who might they call?
+
+A. creativity
+B. hatred
+C. caregiver
+D. own house
+E. much money",caregiver,"The correct answer is C. caregiver. 
+
+When an elderly person needs help performing daily tasks, they might call a caregiver, who is someone trained to assist with daily living activities.",1.0,True,0,False,False,False,True
+commonsense,standard,"A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?
+
+A. car
+B. house
+C. offices
+D. park
+E. movie theatre",house,"To determine where the air conditioning is likely to be installed while the man watches the game on Saturday, we can analyze the options:
+
+A. **Car** - While some cars have air conditioning, it is less common for someone to watch a game in their car.
+
+B. **House** - Many people watch games at home, and it is common to have air conditioning installed in houses for comfort.
+
+C. **Offices** - Offices may have air conditioning, but it is less likely that someone would watch a game there on a Saturday.
+
+D. **Park** - Parks typically do not have air conditioning, and watching a game there would not involve air conditioning.
+
+E. **Movie theatre** - Movie theatres usually have air conditioning, but they are not the typical place for watching a game, which is usually done at home or in a more casual setting.
+
+Considering these points, the most likely place for the man to have air conditioning while watching the game on Saturday is:
+
+**B. house**",1.0,True,0,False,False,False,True
+commonsense,standard,"A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?
+
+A. city
+B. canada
+C. minnesota
+D. thermal
+E. photograph",photograph,"The most logical answer is E. photograph. A patriotic guy with a camera looking for a bald eagle is likely to want to take a photograph of it if he finds one, as bald eagles are a symbol of patriotism in the United States.",1.0,True,0,False,False,False,True
+commonsense,standard,"Where is a human likely to go as a result of being hungry?
+
+A. eat in restaurant
+B. make bread
+C. have lunch
+D. cook dinner
+E. friends house",eat in restaurant,"To determine where a human is likely to go as a result of being hungry, we can analyze the options provided:
+
+A. **eat in restaurant** - This is a common choice for someone who is hungry and wants a meal without cooking.
+
+B. **make bread** - This option involves preparing food at home, which may not be the immediate action taken when feeling hungry.
+
+C. **have lunch** - This is a specific meal time that could imply going somewhere to eat, but it is not as direct as option A.
+
+D. **cook dinner** - Similar to option B, this involves preparing food at home, which may not be the immediate response to hunger.
+
+E. **friends house** - While visiting a friend's house could lead to food, it is not a direct response to hunger.
+
+Considering these options, the most direct and likely response to being hungry is:
+
+**A. eat in restaurant** 
+
+This option clearly indicates going somewhere to satisfy hunger immediately.",0.0,False,0,False,False,False,True
+commonsense,standard,"What is a person who is good at sports considered?
+
+A. lazy
+B. own house
+C. talented
+D. affluent
+E. reproduce",talented,A person who is good at sports is considered C. talented.,0.18181818181818182,True,0,False,False,False,False
+commonsense,standard,"A creek could be located in the opposite for the city which is called what?
+
+A. meadow
+B. stick
+C. valley
+D. forest
+E. countryside",countryside,"To determine the correct answer, we need to understand the relationship between a creek and its geographical location in relation to a city.
+
+A creek is typically a small stream or a minor waterway. When considering what could be located opposite a city, we can analyze the options:
+
+A. **Meadow** - This is an open area of grassland, which could be near a creek but is not specifically opposite a city.
+
+B. **Stick** - This does not relate to a geographical feature and is not a suitable answer.
+
+C. **Valley** - A valley is a low area between hills or mountains, which could potentially contain a creek. However, it is not specifically opposite a city.
+
+D. **Forest** - A forest is a large area covered chiefly with trees and undergrowth. While a forest could be near a creek, it is not specifically opposite a city.
+
+E. **Countryside** - This term refers to rural areas outside of cities, which often include fields, farms, and natural features like creeks. A creek could very well be located in the countryside, opposite a city.
+
+Given this analysis, the best answer is:
+
+**E. countryside**",1.0,True,0,False,False,False,True
+commonsense,standard,"The man got a pail to catch the draining motor oil, where was he likely doing this at home?
+
+A. garage
+B. hardware store
+C. utility room
+D. wishing well
+E. laundry",garage,"The most likely place where the man would be catching draining motor oil at home is:
+
+A. garage
+
+The garage is commonly used for automotive work, including changing oil, which would require a pail to catch the draining motor oil.",1.0,True,0,False,False,False,True

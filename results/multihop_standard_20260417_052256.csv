@@ -1,0 +1,155 @@
+dataset,prompt_type,question,ground_truth,model_response,f1_score,exact_match,reasoning_steps,has_has_step_keywords,has_has_calculation,has_has_conclusion,has_is_coherent
+multihop,standard,The Dogwoman telemovies were created by an actress born in what year?,1961,"The Dogwoman telemovies were created by actress and writer, **Kerry Ann McKinnon**, who was born in **1967**.",0.0,False,0,False,False,False,False
+multihop,standard,Who fills in occasionally for the meteorologist who replaced  Ginger Zee ?,Kait Parker,"The meteorologist who occasionally fills in for Ginger Zee is Rob Marciano. He is known for his work on ABC's ""Good Morning America"" and has stepped in for Zee when needed.",0.0,False,0,False,False,False,True
+multihop,standard,In Ancient Egyptian religion how would a citizen be weighted to decide if they where worthy of damnation and would face the torment in the lake of fire ?,against the feather of truth,"In Ancient Egyptian religion, the process of determining a person's worthiness for the afterlife involved a significant ritual known as the ""Weighing of the Heart."" This ceremony was crucial in deciding whether a soul would be granted passage to the afterlife or face punishment.
+
+Here’s how the process worked:
+
+1. **Death and Preparation**: After a person died, their body was mummified, and they were buried with various items to aid them in the afterlife.
+
+2. **Journey to the Afterlife**: The deceased would embark on a journey through the Duat (the underworld), where they would encounter various challenges and deities.
+
+3. **The Weighing of the Heart**: Upon reaching the Hall of Ma'at, the deceased would stand before the god Osiris and a panel of other deities. Their heart, which was believed to be the seat of the soul and the center of a person's being, would be weighed against the feather of Ma'at, the goddess of truth and justice.
+
+4. **The Scale**: The heart was placed on one side of a scale, while the feather was placed on the other. This scale represented the balance between the individual's deeds in life and the principles of truth and justice.
+
+5. **Judgment**: 
+   - If the heart was lighter than the feather, it indicated that the person had lived a virtuous life, free from wrongdoing. They would be deemed worthy and allowed to enter the afterlife, where they could enjoy eternal peace.
+   - If the heart was heavier than the feather, it signified that the individual had committed sins and led a life contrary to Ma'at. In this case, the heart would be devoured by Ammit, a fearsome creature that was part crocodile, lion, and hippopotamus. This act would result in the soul facing eternal torment, often described as a form of damnation.
+
+6. **Outcome**: The ultimate goal for the deceased was to achieve a favorable judgment, allowing them to join the company of the blessed in the Field of Reeds, a paradise-like afterlife.
+
+This ritual underscored the importance of moral conduct and the belief in an afterlife where one's actions in life had significant consequences.",0.14285714285714285,False,6,False,False,False,True
+multihop,standard,Which town near the county border with North Yorkshire was this Lancashire mill (closed in 1979 and demolished) located?,Barnoldswick,"The town you are referring to is likely ""Colne."" Colne is located near the border with North Yorkshire and is known for its historical textile mills, many of which have closed over the years, including one that closed in 1979 and was subsequently demolished. If you need more specific information or details about the mill, feel free to ask!",0.0,False,0,False,False,False,True
+multihop,standard,"The Prodigal Daughter, though a book about an American, is by a novelist of what nationality?",English,"The Prodigal Daughter is written by the American novelist Jeffrey Archer. Therefore, the nationality of the novelist is American.",0.0,False,0,True,False,True,False
+multihop,standard,At what height does State Route 160 start?,4145 ft,"State Route 160 begins at an elevation of approximately 1,000 feet (305 meters) at its southern terminus in the vicinity of the town of Alamo, Nevada. If you need more specific information or details about a particular segment of the route, please let me know!",0.0,False,3,False,False,False,True
+multihop,standard,The alcoholic drink that shares a name with Quintessentially Unreal's 1996 album is commonly reffered to in historical literature as what?,the green fairy,"The alcoholic drink that shares a name with Quintessentially Unreal's 1996 album is ""Absinthe."" In historical literature, absinthe is often referred to as ""the Green Fairy"" due to its distinctive green color and the mythos surrounding its effects and cultural significance.",0.0,False,0,False,False,False,True
+multihop,standard,"What actor replaced the Welch actor born in 1978 who played Robin Hood in the first season of ""Once upon a Time""?",Sean Maguire,"The actor who played Robin Hood in the first season of ""Once Upon a Time"" was Tom Ellis, who was born in 1978. He was later replaced by Sean Maguire, who took over the role in the second season.",0.09756097560975609,True,2,True,False,False,True
+multihop,standard,"Which year was the more recent engine series, the Honda K or Honda H, introduced?",2001,"The more recent engine series is the Honda K series, which was introduced in 2001. The Honda H series was introduced earlier, in 1994. Therefore, the Honda K series is the more recent of the two.",0.05405405405405406,True,0,True,False,True,True
+multihop,standard,Who is the film dedicated to that Paramount Classics and MTV Films co-purchased the rights to?,Sam Phillips,"The film is dedicated to the late actor Heath Ledger. Paramount Classics and MTV Films co-purchased the rights to the film ""The Imaginarium of Doctor Parnassus,"" which was one of Ledger's final projects before his untimely death.",0.0,False,0,False,False,False,True
+multihop,standard,What are some foods that may have been served at the Hawaiin Cottage?,"poi, Kalua pig, poke, lomi salmon, opihi, haupia","The Hawaiian Cottage, often associated with Hawaiian-themed restaurants or events, typically features a menu inspired by traditional Hawaiian cuisine. Here are some foods that may have been served at such a place:
+
+1. **Poke** - A traditional Hawaiian dish made with diced raw fish, often seasoned with soy sauce, sesame oil, and green onions.
+
+2. **Loco Moco** - A comfort food dish consisting of rice topped with a hamburger patty, a fried egg, and brown gravy.
+
+3. **Kalua Pig** - Slow-cooked pork that is traditionally prepared in an underground oven (imu), resulting in tender, smoky meat.
+
+4. **Spam Musubi** - A sushi-like snack made with a slice of Spam on top of rice, wrapped in seaweed.
+
+5. **Huli Huli Chicken** - Grilled chicken marinated in a sweet and savory sauce, often cooked over an open flame.
+
+6. **Poi** - A traditional Hawaiian staple made from taro root that is cooked and pounded into a smooth, sticky paste.
+
+7. **Macaroni Salad** - A popular side dish in Hawaiian cuisine, typically made with elbow macaroni, mayonnaise, and various mix-ins like carrots and celery.
+
+8. **Tropical Fruits** - Fresh fruits such as pineapple, mango, papaya, and coconut are often featured in Hawaiian dishes or served as desserts.
+
+9. **Haupia** - A coconut milk-based dessert that is often served as a pudding or in pie form.
+
+10. **Ahi Tuna** - Fresh tuna, often served as sashimi or grilled, is a popular seafood choice in Hawaiian cuisine.
+
+These dishes reflect the diverse influences of Hawaiian culture, including native Hawaiian, Asian, and American flavors.",0.0,False,10,False,False,False,True
+multihop,standard,In what year was the coach who led the 2007 South Carolina Gamecocks football team in his third season as USC head coach born?,1945,"The coach who led the 2007 South Carolina Gamecocks football team was Steve Spurrier. He was born on April 20, 1945.",0.0909090909090909,True,2,False,False,False,True
+multihop,standard,What team did Travis Cortez Mays play on which currently compete in the Big 12 Conference.?,Texas Longhorns men's basketball team,"Travis Cortez Mays played for the University of Texas at Austin, which currently competes in the Big 12 Conference.",0.08,False,0,False,False,False,False
+multihop,standard,"Which film does ""Naked Weapon"" follow in the ""Naked"" series?","""Naked Killer""","""Naked Weapon"" follows the film ""Naked Killer"" in the ""Naked"" series.",0.3076923076923077,True,0,False,False,False,False
+multihop,standard,Which award David Hersey had got for Equus a play by Peter Shaffer ?,Outstanding Lighting Design,"David Hersey received the Tony Award for Best Lighting Design for his work on the play ""Equus"" by Peter Shaffer.",0.1739130434782609,False,0,False,False,False,False
+multihop,standard,which Mexican and American film actress is Ethel Houbiers  French voice of ,Salma Hayek Pinault,Ethel Houbiers is known for being the French voice of the Mexican and American film actress Salma Hayek.,0.1904761904761905,False,0,False,False,False,False
+multihop,standard,"What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",The Colomac Mine,"The Colomac Mine was operated by Royal Oak Mines at an earlier date than the Kemess Mine. The Colomac Mine began production in the late 1980s, while the Kemess Mine started operations in the late 1990s.",0.0,False,0,False,False,False,True
+multihop,standard,Are The Man from Snowy River II and Miracle of the White Stallions filmed in different countries?,yes,"Yes, ""The Man from Snowy River II"" and ""Miracle of the White Stallions"" were filmed in different countries. 
+
+""The Man from Snowy River II,"" also known as ""Return to Snowy River,"" was filmed in Australia, specifically in the picturesque landscapes of the Australian Alps.
+
+On the other hand, ""Miracle of the White Stallions"" was filmed in Austria, primarily at the Spanish Riding School in Vienna, which is known for its classical dressage and the Lipizzaner horses.
+
+So, to summarize, ""The Man from Snowy River II"" was filmed in Australia, while ""Miracle of the White Stallions"" was filmed in Austria, making them productions from different countries.",0.0,False,0,False,False,True,True
+multihop,standard,Do Lush and P.O.D. both consist of four band members?,yes,"No, Lush and P.O.D. do not both consist of four band members. Lush is a British alternative rock band that originally had four members, but they have had different lineups over the years. P.O.D. (Payable on Death), an American nu-metal band, typically consists of five members. Therefore, while Lush originally had four members, P.O.D. generally has five.",0.0,False,0,True,False,True,True
+multihop,standard,What actor from the show Murphy Brown also had a role in a show with fellow actor Steve Howey? ,Christopher Rich,"The actor from the show ""Murphy Brown"" who also had a role in a show with Steve Howey is Candice Bergen. She starred in ""Murphy Brown,"" and Steve Howey appeared alongside her in the show ""Reba,"" where he played the character Van Montgomery.",0.0,False,0,False,False,False,True
+multihop,standard,What year was Playford B Power Station permanently closed in by its Australian operator?,2015,Playford B Power Station was permanently closed in 2016 by its Australian operator.,0.0,False,0,False,False,False,False
+multihop,standard,Which English actor starred in the 1995 american romantic drama film The Scarlet Letter alongside Demi Moore and Robert Duvall?,Gary Oldman,"The English actor who starred in the 1995 American romantic drama film ""The Scarlet Letter"" alongside Demi Moore and Robert Duvall is Gary Oldman.",0.15384615384615385,True,0,False,False,False,True
+multihop,standard,"Which tennis player is older, Emilio Sánchez or Andrei Olhovskiy?",Emilio Ángel Sánchez Vicario,"To determine which tennis player is older, we need to look at their birthdates.
+
+- Emilio Sánchez was born on July 29, 1969.
+- Andrei Olhovskiy was born on January 1, 1969.
+
+Since Andrei Olhovskiy was born earlier in the same year, he is older than Emilio Sánchez. 
+
+Therefore, Andrei Olhovskiy is the older player.",0.0,False,3,True,False,True,True
+multihop,standard,Henderson Executive Airport got its name in 1996 when it was purchased by Clark County to be used as a reliever airport for an airport named after what politican?,U.S. Senator Pat McCarran,"Henderson Executive Airport was named after the politician Harry Reid. The airport serves as a reliever airport for McCarran International Airport, which was later renamed Harry Reid International Airport in honor of the former U.S. Senator.",0.12500000000000003,False,0,False,False,False,True
+multihop,standard,"Where is the county seat for people living in Henderson Point, Mississippi?","Gulfport, Biloxi","The county seat for people living in Henderson Point, Mississippi, is in the city of Bay St. Louis. Bay St. Louis is located in Hancock County, where Henderson Point is situated.",0.0,False,0,False,False,False,True
+multihop,standard,Carrie Coon plays Margo Dunne in a 2014 film set in what state?,Missouri,"Carrie Coon plays Margo Dunne in the 2014 film ""Gone Girl,"" which is set in the state of Missouri.",0.1,True,0,False,False,False,False
+multihop,standard,What do both Spider-Man and Spider-Man in film have in comman,comic,"Both Spider-Man in the comics and Spider-Man in film share several key characteristics and themes:
+
+1. **Origin Story**: Both versions typically follow the origin story of Peter Parker, a high school student who gains spider-like abilities after being bitten by a radioactive spider.
+
+2. **Powers and Abilities**: In both mediums, Spider-Man possesses superhuman strength, agility, the ability to cling to walls, and a ""spider-sense"" that alerts him to danger. He also uses web-shooters to swing between buildings and capture enemies.
+
+3. **Dual Identity**: The struggle between Peter Parker's life as a regular person and his responsibilities as Spider-Man is a central theme in both the comics and films. This duality often leads to conflicts in his personal relationships and responsibilities.
+
+4. **Iconic Villains**: Both versions feature a range of iconic villains, such as Green Goblin, Doctor Octopus, and Venom, who challenge Spider-Man both physically and morally.
+
+5. **Themes of Responsibility**: The famous phrase ""With great power comes great responsibility"" is a core principle in both the comics and films, emphasizing the moral obligations that come with his powers.
+
+6. **Supporting Characters**: Key supporting characters, such as Aunt May, Mary Jane Watson, and Harry Osborn, are present in both the comics and films, contributing to Peter Parker's development and the story's emotional depth.
+
+7. **Humor and Wit**: Spider-Man is known for his quippy humor and light-hearted banter, which is a consistent trait in both comic book portrayals and film adaptations.
+
+8. **Cultural Impact**: Both the comic and film versions of Spider-Man have had a significant impact on popular culture, inspiring merchandise, animated series, and a dedicated fanbase.
+
+These commonalities help maintain the essence of Spider-Man across different interpretations and adaptations.",0.0,False,8,False,False,False,True
+multihop,standard,"Which has more species, Sonerila or Scaevola?",Sonerila,"To determine which genus has more species, we can look at the available taxonomic data for both Sonerila and Scaevola.
+
+1. **Sonerila**: This genus is part of the family Melastomataceae and is primarily found in tropical regions, particularly in Southeast Asia. It is known to have around 100 species.
+
+2. **Scaevola**: This genus belongs to the family Goodeniaceae and is commonly found in Australia, the Pacific Islands, and parts of Africa. Scaevola is much larger, with over 100 species, and some estimates suggest it could have around 200 species.
+
+Based on this information, **Scaevola** has more species than **Sonerila**.",0.0,False,2,False,False,False,True
+multihop,standard,"What party was Johan Henrik Deuntzer a part of before the party that translates to the ""Radical Left?""","Liberal ""Venstre"" party","Before being part of the party that translates to the ""Radical Left,"" Johan Henrik Deuntzer was a member of the Danish Social Liberal Party.",0.14814814814814814,False,0,False,False,False,True
+multihop,standard,What other film did the star of 127 Hours act in?,Pineapple Express,"The star of ""127 Hours"" is James Franco. He has acted in several other films, including ""Pineapple Express,"" ""The Disaster Artist,"" and ""Spring Breakers."" If you have a specific film in mind or need more details about his filmography, feel free to ask!",0.0,False,0,False,False,False,True
+multihop,standard,What school was the actress who appeared with Michelle Williams in the last play by Russian playwright Anton Chekhov attending when she was signed on for a talent holding deal?,Juilliard School,"The actress who appeared with Michelle Williams in the last play by Russian playwright Anton Chekhov, ""The Cherry Orchard,"" is Jessica Chastain. At the time she was signed on for a talent holding deal, she was attending the Juilliard School.",0.0,False,0,False,False,False,True
+multihop,standard,What is the capacity of the stadium that is the home ground of the Lahore Eagles?,"27,000","The home ground of the Lahore Eagles is the Gaddafi Stadium, which has a capacity of approximately 27,000 spectators.",0.18181818181818182,True,0,False,False,False,False
+multihop,standard,St Dionis Backchurch was rebuilt after a major conflagration that consumed how many parish churches?,87,"St Dionis Backchurch was rebuilt after the Great Fire of London in 1666, which consumed a total of 87 parish churches.",0.0909090909090909,True,0,False,False,False,True
+multihop,standard,"What career did the British actor born in 1965  and star of Lock, Stock and Two Smoking Barrels have before acting?",professional footballer,"The British actor you are referring to is Jason Statham, who was born in 1967, not 1965. Before his acting career, Jason Statham was a competitive diver and was a member of Britain's National Diving Squad for over a decade. He also worked as a model and appeared in various advertisements before transitioning to acting.",0.0,False,0,False,False,False,True
+multihop,standard,Curt Menefee is the host of the Fox network's NFL show with co-host Michael Anthony Strahan who spent his entire 15-year career with what team?,New York Giants,Michael Strahan spent his entire 15-year career with the New York Giants.,0.375,True,0,False,False,False,False
+multihop,standard,Lake Wales Ridge National Wildlife Refuge is on the US route that runs between a city in what Florida county?,Polk,"Lake Wales Ridge National Wildlife Refuge is located in Polk County, Florida. The US route that runs through this area is US Route 27, which connects various cities in Florida, including Lake Wales.",0.05882352941176471,True,0,False,False,False,True
+multihop,standard,"Which film director is younger, Robert Z. Leonard or Sinclair Hill?",Sinclair Hill,"To determine which film director is younger between Robert Z. Leonard and Sinclair Hill, we need to look at their birth dates.
+
+- Robert Z. Leonard was born on February 2, 1889.
+- Sinclair Hill was born on December 24, 1888.
+
+Now, comparing their birth years:
+
+- Robert Z. Leonard (1889) is younger than Sinclair Hill (1888).
+
+Therefore, Robert Z. Leonard is the younger film director.",0.0,False,5,True,False,True,True
+multihop,standard,What city is between Normanby le Wold and the A46 Junction between Lincoln and Grimsby?,Caistor is a town,The city located between Normanby le Wold and the A46 Junction between Lincoln and Grimsby is Caistor. Caistor is situated to the west of the A46 and is approximately in line with the route connecting Normanby le Wold to the A46 junction.,0.0,False,2,False,False,False,True
+multihop,standard,Milo Parker starred in which 2014 movie alongside Gillian Anderson?,Robot Overlords,"Milo Parker starred alongside Gillian Anderson in the 2014 movie ""Mr. Holmes.""",0.0,False,0,False,False,False,False
+multihop,standard,The Lady Craved Excitement was a film that featured the British character actor originally of what nationality?,South African-born,"The film ""The Lady Craved Excitement"" featured the British character actor who was originally of Russian nationality.",0.0,False,0,False,False,False,False
+multihop,standard,...Ready for It? is a Taylor Swift song from the album scheduled to be released on what date?,"November 10, 2017","""...Ready for It?"" is a song by Taylor Swift from her album ""Reputation,"" which was released on November 10, 2017.",0.2608695652173913,True,0,False,False,False,False
+multihop,standard,"Jal Pari, which translated in another language refers to which legendary creature which are sometimes associated with perilous events such as floods, storm,s shipwrecks, and drownings?",A mermaid,"Jal Pari translates to ""water fairy"" or ""water spirit"" in English and is often associated with the legendary creature known as a ""siren"" or ""mermaid."" These creatures are sometimes linked to perilous events such as floods, storms, shipwrecks, and drownings in various mythologies and folklore.",0.0,False,0,False,False,False,True
+multihop,standard,What is the brand who makes canned meats that had its own cook off in Austin until 2007?,Hormel Foods Corporation,"The brand you are referring to is Hormel. Hormel Foods is known for its canned meats, including Spam, and it held a Spam cook-off in Austin, Texas, until 2007.",0.1212121212121212,False,0,False,False,False,True
+multihop,standard,"Multiculturalism in the Netherlands reached new heights following the murder in 2002, in part, with what Dutch politician, civil servant, socialogist and professor who formed his own party?","Wilhelmus Simon Petrus Fortuijn, known as Pim Fortuyn","The Dutch politician you are referring to is Pim Fortuyn. He was a controversial figure known for his outspoken views on immigration and multiculturalism. Following his murder in 2002, discussions around these topics intensified in the Netherlands, and Fortuyn's political party, the Pim Fortuyn List (Lijst Pim Fortuyn, LPF), gained significant attention and support.",0.0,False,0,False,False,False,True
+multihop,standard,"Which movie directed by James Gunn portrayed the fictional character, Ego the Living Planet?",Guardians of the Galaxy Vol. 2,"The movie directed by James Gunn that portrayed the fictional character Ego the Living Planet is ""Guardians of the Galaxy Vol. 2.""",0.42857142857142855,True,0,False,False,False,True
+multihop,standard,Which film was not a 3D computer-animation Cars 3 or Smith!?,Smith!,"""Smith!"" is not a 3D computer-animated film. ""Cars 3"" is a 3D computer-animated film produced by Pixar Animation Studios. Therefore, the answer is ""Smith!"".",0.07407407407407407,True,2,True,False,True,True
+multihop,standard,The city that hosted the Olympics where Taiwan competed as Chinese Taipei is situated at the confluence of what two rivers?,Bow River and the Elbow River,"The city that hosted the Olympics where Taiwan competed as Chinese Taipei is Beijing, which is situated at the confluence of the Yongding River and the Chaobai River.",0.17647058823529413,False,0,False,False,False,True
+multihop,standard,Penny Rae Bridges starred in a television sitcom with what other actor?,Ben Savage,"Penny Rae Bridges starred in the television sitcom ""The Penny and the Pals Show"" alongside actor and comedian Paul Reiser. If you are referring to a different sitcom or need information about another actor, please provide more details!",0.0,False,0,False,False,False,True
+multihop,standard,Were Ulrich Walter and Léopold Eyharts both from Germany?,no,"No, Ulrich Walter is from Germany, while Léopold Eyharts is from France.",0.15384615384615385,True,0,False,False,False,False
+multihop,standard,"Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",Christopher Haden-Guest,"To determine who has a wider scope of profession between Christopher Guest and Roman Karmen, we need to look at their respective careers and contributions.
+
+**Christopher Guest:**
+- Christopher Guest is a multi-talented individual known primarily as a filmmaker, actor, writer, and musician. 
+- He is famous for his work in mockumentary films, such as ""This Is Spinal Tap,"" ""Best in Show,"" and ""A Mighty Wind."" 
+- Guest has also directed several films and is known for his improvisational style of comedy.
+- In addition to his film work, he is a musician and has been involved in various musical projects.
+
+**Roman Karmen:**
+- Roman Karmen was a Soviet filmmaker and documentarian, known for his work in the field of documentary filmmaking.
+- He is recognized for his contributions to Soviet cinema, particularly during and after World War II, and for his focus on social and political themes.
+- Karmen's work primarily revolved around documentary films, and he is less known for a broader range of genres or roles compared to Guest.
+
+**Comparison:**
+- Christopher Guest has a wider scope of profession as he operates in multiple areas: acting, directing, writing, and music. His work spans various genres, including comedy and drama, and he has a significant presence in both film and music.
+- Roman Karmen, while influential in his field, primarily focused on documentary filmmaking and did not have the same breadth of roles or genres as Guest.
+
+**Conclusion:**
+Christopher Guest has a wider scope of profession compared to Roman Karmen due to his diverse roles in film and music, as well as his contributions across multiple genres.",0.0,False,0,False,False,True,True

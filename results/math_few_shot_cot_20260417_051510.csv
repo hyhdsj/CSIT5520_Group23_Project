@@ -1,0 +1,977 @@
+dataset,prompt_type,question,ground_truth,model_response,f1_score,exact_match,reasoning_steps,has_has_step_keywords,has_has_calculation,has_has_conclusion,has_is_coherent
+math,few_shot_cot,"For every 12 cans you recycle, you receive $0.50, and for every 5 kilograms of newspapers, you receive $1.50. If your family collected 144 cans and 20 kilograms of newspapers, how much money would you receive?",12,"To find out how much money you would receive for recycling the cans and newspapers, we can break it down into two parts: the money from the cans and the money from the newspapers.
+
+1. **Calculating money from cans:**
+   - You have 144 cans.
+   - For every 12 cans, you receive $0.50.
+   - First, we need to find out how many groups of 12 cans are in 144 cans: 
+     \[
+     \frac{144}{12} = 12 \text{ groups of cans}
+     \]
+   - Since you receive $0.50 for each group of 12 cans, the total money from cans is:
+     \[
+     12 \times 0.50 = 6.00 \text{ dollars}
+     \]
+
+2. **Calculating money from newspapers:**
+   - You have 20 kilograms of newspapers.
+   - For every 5 kilograms, you receive $1.50.
+   - First, we need to find out how many groups of 5 kilograms are in 20 kilograms:
+     \[
+     \frac{20}{5} = 4 \text{ groups of newspapers}
+     \]
+   - Since you receive $1.50 for each group of 5 kilograms, the total money from newspapers is:
+     \[
+     4 \times 1.50 = 6.00 \text{ dollars}
+     \]
+
+3. **Calculating total money received:**
+   - Now, we add the money received from cans and newspapers:
+     \[
+     6.00 + 6.00 = 12.00 \text{ dollars}
+     \]
+
+Answer: 12.00",0.6666666666666666,True,5,True,True,False,True
+math,few_shot_cot,Betty picked 16 strawberries. Matthew picked 20 more strawberries than Betty and twice as many as Natalie. They used their strawberries to make jam. One jar of jam used 7 strawberries and they sold each jar at $4. How much money were they able to make from the strawberries they picked?,40,"First, we need to determine how many strawberries Matthew picked. Betty picked 16 strawberries, and Matthew picked 20 more than Betty. 
+
+1. Calculate Matthew's strawberries:
+   - Matthew's strawberries = Betty's strawberries + 20
+   - Matthew's strawberries = 16 + 20 = 36 strawberries.
+
+Next, we need to find out how many strawberries Natalie picked. According to the problem, Matthew picked twice as many strawberries as Natalie.
+
+2. Let \( N \) be the number of strawberries Natalie picked. Then:
+   - Matthew's strawberries = 2 × Natalie's strawberries
+   - 36 = 2 × N
+   - To find \( N \), divide both sides by 2:
+   - \( N = 36 / 2 = 18 \) strawberries.
+
+Now we can find the total number of strawberries picked by Betty, Matthew, and Natalie.
+
+3. Total strawberries:
+   - Total = Betty's strawberries + Matthew's strawberries + Natalie's strawberries
+   - Total = 16 + 36 + 18 = 70 strawberries.
+
+Next, we need to determine how many jars of jam they can make with the strawberries. Each jar of jam uses 7 strawberries.
+
+4. Calculate the number of jars:
+   - Number of jars = Total strawberries / Strawberries per jar
+   - Number of jars = 70 / 7 = 10 jars.
+
+Finally, we calculate how much money they made from selling the jars of jam. Each jar is sold for $4.
+
+5. Calculate total money made:
+   - Total money = Number of jars × Price per jar
+   - Total money = 10 × 4 = $40.
+
+Answer: $40",1.0,True,10,True,True,False,True
+math,few_shot_cot,"Jack has a stack of books that is 12 inches thick. He knows from experience that 80 pages is one inch thick. If he has 6 books, how many pages is each one on average?",160,"To find out how many pages each book has on average, we first need to determine the total number of pages in the stack of books.
+
+1. **Calculate the total number of pages in the stack**: 
+   - The stack of books is 12 inches thick.
+   - Since 80 pages is one inch thick, we can find the total number of pages by multiplying the thickness of the stack by the number of pages per inch:
+   \[
+   \text{Total pages} = 12 \text{ inches} \times 80 \text{ pages/inch} = 960 \text{ pages}
+   \]
+
+2. **Calculate the average number of pages per book**:
+   - Jack has 6 books, so we divide the total number of pages by the number of books to find the average:
+   \[
+   \text{Average pages per book} = \frac{960 \text{ pages}}{6 \text{ books}} = 160 \text{ pages/book}
+   \]
+
+Answer: 160",1.0,True,3,True,False,True,True
+math,few_shot_cot,"James dumps his whole collection of 500 Legos on the floor and starts building a castle out of them.  He uses half the pieces before finishing and is told to put the rest away.  He puts all of the leftover pieces back in the box they came from, except for 5 missing pieces that he can't find.  How many Legos are in the box at the end?",245,"James starts with 500 Legos. He uses half of them to build a castle, so he uses 500 ÷ 2 = 250 Legos. This means he has 250 Legos left. He puts all of the leftover pieces back in the box, but 5 pieces are missing. Therefore, the number of Legos in the box at the end is 250 - 5 = 245. 
+
+Answer: 245",1.0,True,9,True,True,True,True
+math,few_shot_cot,"Ines had $20 in her purse. She bought 3 pounds of peaches, which are $2 per pound at the local farmers’ market. How much did she have left?",14,"Ines starts with $20. She buys 3 pounds of peaches at $2 per pound, so the total cost for the peaches is 3 × 2 = $6. To find out how much money she has left, we subtract the cost of the peaches from her initial amount: $20 - $6 = $14. 
+
+Answer: $14",1.0,True,9,False,False,True,True
+math,few_shot_cot,"Aaron pays his actuary membership fees each year. The membership fee increases yearly by $10. If he pays $80 in the first year, how much does his membership cost, in dollars, in the sixth year?",130,"Aaron's membership fee starts at $80 in the first year. Each subsequent year, the fee increases by $10. 
+
+To find the membership fee in the sixth year, we can calculate the increase over the five years following the first year:
+
+1. Year 1: $80
+2. Year 2: $80 + $10 = $90
+3. Year 3: $90 + $10 = $100
+4. Year 4: $100 + $10 = $110
+5. Year 5: $110 + $10 = $120
+6. Year 6: $120 + $10 = $130
+
+Alternatively, we can use a formula to find the fee in the sixth year directly:
+
+Membership fee in year n = Initial fee + (n - 1) × increase per year
+
+For the sixth year (n = 6):
+
+Membership fee in year 6 = $80 + (6 - 1) × $10
+= $80 + 5 × $10
+= $80 + $50
+= $130
+
+Answer: 130",1.0,True,8,True,True,False,True
+math,few_shot_cot,"Joseph invested $1000 into a hedge fund. The fund promised a yearly interest rate of 10%. If he deposited an additional $100 every month into the account to add to his initial investment of $1000, how much money will he have in the fund after two years?",3982,"To find out how much money Joseph will have in the fund after two years, we need to consider both the initial investment and the additional monthly deposits, as well as the interest earned.
+
+1. **Initial Investment**: Joseph starts with $1000.
+
+2. **Monthly Deposits**: He deposits an additional $100 every month. Over two years (which is 24 months), the total amount deposited from these monthly contributions is:
+   \[
+   100 \text{ dollars/month} \times 24 \text{ months} = 2400 \text{ dollars}
+   \]
+
+3. **Total Contributions**: The total amount contributed to the fund after two years is:
+   \[
+   1000 \text{ dollars (initial)} + 2400 \text{ dollars (monthly)} = 3400 \text{ dollars}
+   \]
+
+4. **Interest Calculation**: The fund has a yearly interest rate of 10%. To calculate the interest earned, we will use the formula for compound interest, but since Joseph is making monthly contributions, we will calculate the interest on the initial investment and the contributions separately.
+
+   - **Interest on Initial Investment**: The initial investment of $1000 will earn interest for 2 years. The formula for compound interest is:
+   \[
+   A = P(1 + r/n)^{nt}
+   \]
+   where:
+   - \( P = 1000 \)
+   - \( r = 0.10 \) (10% interest rate)
+   - \( n = 1 \) (compounded annually)
+   - \( t = 2 \) (years)
+
+   Plugging in the values:
+   \[
+   A = 1000(1 + 0.10/1)^{1 \times 2} = 1000(1.10)^2 = 1000 \times 1.21 = 1210 \text{ dollars}
+   \]
+
+   - **Interest on Monthly Contributions**: Each monthly contribution of $100 will earn interest for a varying number of months. The first contribution will earn interest for 24 months, the second for 23 months, and so on, down to the last contribution which will earn interest for 1 month. 
+
+   The total interest from the monthly contributions can be calculated as follows:
+   \[
+   \text{Total Interest} = 100 \times \left( (1.10)^{24} + (1.10)^{",0.0,False,6,True,True,True,True
+math,few_shot_cot,"The price of buying a wooden toy at the new Craftee And Best store is $20, and the cost of buying a hat is $10. If Kendra went to the shop with a $100 bill and bought two wooden toys and three hats, calculate the change she received.",30,"Kendra buys 2 wooden toys, each costing $20. So, the total cost for the wooden toys is:
+
+2 × $20 = $40.
+
+Next, she buys 3 hats, each costing $10. The total cost for the hats is:
+
+3 × $10 = $30.
+
+Now, we add the total costs of the wooden toys and the hats:
+
+Total cost = $40 (toys) + $30 (hats) = $70.
+
+Kendra started with a $100 bill. To find out how much change she received, we subtract the total cost from the amount she had:
+
+Change = $100 - $70 = $30.
+
+Answer: $30.",1.0,True,1,True,False,True,True
+math,few_shot_cot,"James is trying to create a new breed of kittens with extra-long tails. Each generation of kittens he breeds has a tail 25% longer than the last generation. If the first generation has tails 16 cm long, how long are the third generation's tails?",25,"To find the length of the third generation's tails, we start with the first generation's tail length and apply the 25% increase for each subsequent generation.
+
+1. **First Generation**: The tail length is 16 cm.
+
+2. **Second Generation**: The tail length increases by 25%. 
+   - Calculate 25% of 16 cm: 
+     \[
+     0.25 \times 16 = 4 \text{ cm}
+     \]
+   - Add this to the original length:
+     \[
+     16 + 4 = 20 \text{ cm}
+     \]
+
+3. **Third Generation**: The tail length again increases by 25% from the second generation's length of 20 cm.
+   - Calculate 25% of 20 cm:
+     \[
+     0.25 \times 20 = 5 \text{ cm}
+     \]
+   - Add this to the second generation's length:
+     \[
+     20 + 5 = 25 \text{ cm}
+     \]
+
+Thus, the length of the third generation's tails is 25 cm.
+
+Answer: 25",1.0,True,11,True,True,True,True
+math,few_shot_cot,"The Rotary Club is holding its annual fundraising Omelet Breakfast, with tickets sold in advance. The tickets come in different price levels, for young children, older children, adults, and seniors. This year they sold 53 small children tickets, 35 older children tickets, 75 adult tickets, and 37 senior tickets. To figure out how many eggs they need to buy, the club estimates that small children can eat a half omelet, older children can eat a whole omelet, adults will eat two omelets, and seniors will eat one and a half omelets. Just to be on the safe side, they get enough eggs to make 25 extra omelets. If they use 2 eggs for each omelet, how many eggs will they need to buy?",584,"To determine how many eggs the Rotary Club needs to buy, we first need to calculate the total number of omelets required based on the ticket sales and the estimated consumption for each age group.
+
+1. **Calculate the number of omelets needed for each group:**
+   - Small children: 53 tickets × 0.5 omelets = 26.5 omelets
+   - Older children: 35 tickets × 1 omelet = 35 omelets
+   - Adults: 75 tickets × 2 omelets = 150 omelets
+   - Seniors: 37 tickets × 1.5 omelets = 55.5 omelets
+
+2. **Sum the total number of omelets:**
+   - Total omelets = 26.5 + 35 + 150 + 55.5 = 267 omelets
+
+3. **Add the extra omelets:**
+   - Total omelets needed = 267 + 25 (extra) = 292 omelets
+
+4. **Calculate the total number of eggs needed:**
+   - Since each omelet requires 2 eggs, the total number of eggs needed = 292 omelets × 2 eggs/omelet = 584 eggs.
+
+Therefore, the Rotary Club needs to buy **584 eggs**. 
+
+Answer: 584",1.0,True,5,True,True,True,True
+math,few_shot_cot,John buys cans of soup for buy 1 get one free.  He gets 30 cans with a normal price of $0.60.  How much does he pay?,9,"John buys 30 cans of soup, and since it's a buy 1 get 1 free offer, he effectively gets 30 cans for the price of 15 cans (because for every can he buys, he gets one free). 
+
+First, we calculate the cost of one can:
+- The price of one can is $0.60.
+
+Next, we find out how much he pays for 15 cans:
+- Total cost = 15 cans × $0.60 per can = $9.00.
+
+Therefore, John pays $9.00 for the 30 cans of soup.
+
+Answer: $9.00",0.6666666666666666,True,2,True,False,True,True
+math,few_shot_cot,"Michael has 36 pets. 25% of them are dogs, 50% are cats, and the rest are bunnies. How many bunnies does he have?",9,"To find out how many bunnies Michael has, we first need to determine how many of his pets are dogs and cats.
+
+1. **Calculate the number of dogs**: 
+   - 25% of 36 pets are dogs.
+   - To find 25% of 36, we calculate: 
+     \[
+     0.25 \times 36 = 9 \text{ dogs}
+     \]
+
+2. **Calculate the number of cats**: 
+   - 50% of 36 pets are cats.
+   - To find 50% of 36, we calculate: 
+     \[
+     0.50 \times 36 = 18 \text{ cats}
+     \]
+
+3. **Calculate the number of bunnies**: 
+   - The total number of pets is 36. We have already found that there are 9 dogs and 18 cats.
+   - To find the number of bunnies, we subtract the number of dogs and cats from the total number of pets:
+     \[
+     36 - (9 + 18) = 36 - 27 = 9 \text{ bunnies}
+     \]
+
+Answer: 9",1.0,True,4,True,True,False,True
+math,few_shot_cot,"Grant has four times as many vacations as Kelvin has classes. If Kelvin has 90 classes, how many vacations and classes do Grant and Kelvin have altogether?",450,"To find the total number of vacations and classes that Grant and Kelvin have altogether, we first need to determine how many vacations Grant has based on the number of classes Kelvin has.
+
+1. Kelvin has 90 classes.
+2. Grant has four times as many vacations as Kelvin has classes. Therefore, we calculate the number of vacations Grant has:
+   \[
+   \text{Vacations Grant has} = 4 \times \text{Classes Kelvin has} = 4 \times 90 = 360
+   \]
+
+3. Now, we add the number of classes Kelvin has to the number of vacations Grant has to find the total:
+   \[
+   \text{Total} = \text{Classes Kelvin has} + \text{Vacations Grant has} = 90 + 360 = 450
+   \]
+
+Answer: 450",1.0,True,4,True,True,True,True
+math,few_shot_cot,"Julie is making caesar salad for a family picnic. At the market, she spends $8 on green lettuce and $6 on red lettuce. If each type of lettuce costs $2 per pound, how many total pounds of lettuce did she buy?",7,"Julie spends $8 on green lettuce and $6 on red lettuce. To find out how many pounds of each type of lettuce she bought, we need to divide the total amount spent on each type by the cost per pound.
+
+For the green lettuce:
+- She spends $8 and the cost is $2 per pound.
+- So, the pounds of green lettuce = $8 ÷ $2 = 4 pounds.
+
+For the red lettuce:
+- She spends $6 and the cost is $2 per pound.
+- So, the pounds of red lettuce = $6 ÷ $2 = 3 pounds.
+
+Now, we add the pounds of both types of lettuce together:
+- Total pounds of lettuce = 4 pounds (green) + 3 pounds (red) = 7 pounds.
+
+Answer: 7",1.0,True,15,False,False,True,True
+math,few_shot_cot,"Jimmy bought 3 pens for school for $1 each, 4 notebooks for $3 each and 2 folders for $5 each. If he paid with a $50 bill, how much change will he get back?",25,"To find out how much change Jimmy will get back, we first need to calculate the total cost of the items he bought.
+
+1. **Calculate the cost of the pens:**
+   - Jimmy bought 3 pens for $1 each.
+   - Total cost for pens = 3 × $1 = $3.
+
+2. **Calculate the cost of the notebooks:**
+   - He bought 4 notebooks for $3 each.
+   - Total cost for notebooks = 4 × $3 = $12.
+
+3. **Calculate the cost of the folders:**
+   - He bought 2 folders for $5 each.
+   - Total cost for folders = 2 × $5 = $10.
+
+4. **Calculate the total cost of all items:**
+   - Total cost = Cost of pens + Cost of notebooks + Cost of folders
+   - Total cost = $3 + $12 + $10 = $25.
+
+5. **Calculate the change from the $50 bill:**
+   - Change = Amount paid - Total cost
+   - Change = $50 - $25 = $25.
+
+Answer: $25",1.0,True,6,True,False,False,True
+math,few_shot_cot,Fern buys one pair of high heels for $60 and five pairs of ballet slippers for 2/3rds of the price of the high heels. How much does she pay total?,260,"Fern buys one pair of high heels for $60. The price of each pair of ballet slippers is 2/3 of the price of the high heels. So, the price of one pair of ballet slippers is:
+
+\[
+\frac{2}{3} \times 60 = 40
+\]
+
+Now, she buys five pairs of ballet slippers, so the total cost for the ballet slippers is:
+
+\[
+5 \times 40 = 200
+\]
+
+Now, we add the cost of the high heels to the total cost of the ballet slippers:
+
+\[
+60 + 200 = 260
+\]
+
+Answer: 260",1.0,True,13,False,True,True,True
+math,few_shot_cot,"The teacher divided the students into four groups. One group had 5 students, another 8 students, and the third 7 students. If there were 24 total students, how many students were in the fourth group?",4,"To find the number of students in the fourth group, we start with the total number of students, which is 24. We then add the number of students in the first three groups: 
+
+- First group: 5 students
+- Second group: 8 students
+- Third group: 7 students
+
+Now, we calculate the total number of students in the first three groups:
+
+5 + 8 + 7 = 20 students
+
+Next, we subtract the total number of students in the first three groups from the overall total to find the number of students in the fourth group:
+
+24 (total students) - 20 (students in the first three groups) = 4 students
+
+Answer: 4",1.0,True,9,True,True,False,True
+math,few_shot_cot,"Every hour past noon shadows from a building stretch an extra 5 feet, starting at zero at noon.  How long are the shadows from the building 6 hours past noon in inches?",360,"To find the length of the shadows from the building 6 hours past noon, we start with the information given:
+
+1. Shadows start at 0 feet at noon.
+2. Every hour past noon, the shadows stretch an extra 5 feet.
+
+Now, we calculate the total length of the shadows after 6 hours:
+
+- For each hour, the shadows increase by 5 feet. Therefore, after 6 hours, the increase in shadow length is:
+  \[
+  6 \text{ hours} \times 5 \text{ feet/hour} = 30 \text{ feet}
+  \]
+
+Next, we need to convert the length from feet to inches. Since there are 12 inches in a foot, we multiply the total feet by 12 to get the length in inches:
+
+\[
+30 \text{ feet} \times 12 \text{ inches/foot} = 360 \text{ inches}
+\]
+
+Thus, the length of the shadows from the building 6 hours past noon is:
+
+Answer: 360",1.0,True,3,True,False,True,True
+math,few_shot_cot,"A fox can run at the maximum speed of 50 kilometers per hour. Considering the fox would run at a constant speed, what distance would he make during 120 minutes?",100,"To find the distance the fox would run in 120 minutes, we first need to convert the time from minutes to hours since the speed is given in kilometers per hour. 
+
+120 minutes is equal to 120 ÷ 60 = 2 hours.
+
+Now, we can use the formula for distance, which is:
+
+Distance = Speed × Time.
+
+The speed of the fox is 50 kilometers per hour, and the time is 2 hours. 
+
+So, we calculate the distance as follows:
+
+Distance = 50 km/h × 2 h = 100 kilometers.
+
+Answer: 100 kilometers.",0.6666666666666666,True,1,True,False,True,True
+math,few_shot_cot,"There were 40 kids on Lake Pleasant. A fourth of the kids went tubing, but only half of the tubers went rafting. How many of the kids who joined the rafting excursion were also on the tubing excursion?",5,"To find out how many kids who joined the rafting excursion were also on the tubing excursion, we can break it down step by step.
+
+1. **Determine how many kids went tubing**: There are 40 kids in total, and a fourth of them went tubing. So, we calculate:
+   \[
+   \text{Kids tubing} = \frac{1}{4} \times 40 = 10
+   \]
+
+2. **Determine how many of the tubers went rafting**: We know that half of the kids who went tubing also went rafting. So, we calculate:
+   \[
+   \text{Kids rafting} = \frac{1}{2} \times 10 = 5
+   \]
+
+Thus, the number of kids who joined the rafting excursion and were also on the tubing excursion is 5.
+
+Answer: 5",1.0,True,2,True,False,True,True
+math,few_shot_cot,"At a convention, 16 of 36 delegates arrived with pre-printed name badges. Half of the remaining delegates made their own, hand-written name badges. How many delegates were not wearing name badges?",10,"To find out how many delegates were not wearing name badges, we start with the total number of delegates, which is 36. 
+
+First, we know that 16 delegates arrived with pre-printed name badges. 
+
+Next, we calculate the number of delegates who did not have pre-printed name badges:
+36 total delegates - 16 delegates with pre-printed badges = 20 delegates without pre-printed badges.
+
+Now, we know that half of these remaining 20 delegates made their own hand-written name badges. So, we calculate half of 20:
+20 ÷ 2 = 10 delegates made their own hand-written name badges.
+
+Now, to find out how many delegates were not wearing any name badges, we subtract the number of delegates who made their own badges from the remaining delegates:
+20 remaining delegates - 10 delegates with hand-written badges = 10 delegates who are not wearing any name badges.
+
+Answer: 10",1.0,True,2,True,False,True,True
+math,few_shot_cot,"Edward the plumber is replacing a pipe in a bathroom wall.  He needs to use 40 feet of copper pipe to complete the job.  For every 5 feet of pipe, Edward must use one tightening bolt, and for every bolt, he uses two washers.  He buys a bag of 20 washers for the job.  After he completes the bathroom job, how many washers will be remaining in the bag?",4,"Edward needs 40 feet of copper pipe. For every 5 feet of pipe, he uses 1 tightening bolt. 
+
+First, we calculate how many bolts he needs:
+- Total feet of pipe: 40 feet
+- Feet per bolt: 5 feet
+- Number of bolts needed: 40 feet ÷ 5 feet/bolt = 8 bolts
+
+Next, for each bolt, he uses 2 washers:
+- Number of washers needed: 8 bolts × 2 washers/bolt = 16 washers
+
+Edward starts with a bag of 20 washers. After using 16 washers, we find out how many are left:
+- Remaining washers: 20 washers - 16 washers = 4 washers
+
+Answer: 4",1.0,True,2,True,False,False,True
+math,few_shot_cot,Eric has 4 ninja throwing stars. His friend Chad has twice as many. Then Jeff bought 2 ninja stars from Chad. Jeff now has 6 throwing stars. How many ninja throwing stars do they have altogether?,16,"Eric has 4 ninja throwing stars. Chad has twice as many as Eric, so Chad has 2 × 4 = 8 ninja throwing stars. Jeff bought 2 ninja stars from Chad, so after the purchase, Chad has 8 - 2 = 6 ninja stars left. Jeff now has 6 throwing stars. 
+
+Now, let's find the total number of ninja throwing stars they have altogether:
+- Eric: 4 stars
+- Chad: 6 stars (after selling 2 to Jeff)
+- Jeff: 6 stars
+
+Total: 4 + 6 + 6 = 16.
+
+Answer: 16",1.0,True,17,False,True,True,True
+math,few_shot_cot,Each dandelion produces 300 seeds. 1/3rd of the seeds land in water and die. 1/6 of the starting number are eaten by insects. Half the remainder sprout and are immediately eaten. How many dandelions survive long enough to flower?,75,"To determine how many dandelions survive long enough to flower, we need to follow the steps outlined in the question.
+
+1. **Starting Seeds**: Each dandelion produces 300 seeds.
+
+2. **Seeds that Land in Water**: 1/3 of the seeds land in water and die. 
+   - Calculation: \( \frac{1}{3} \times 300 = 100 \) seeds die in water.
+
+3. **Seeds Eaten by Insects**: 1/6 of the starting number of seeds are eaten by insects.
+   - Calculation: \( \frac{1}{6} \times 300 = 50 \) seeds are eaten by insects.
+
+4. **Remaining Seeds**: To find the number of seeds that remain after accounting for those that died in water and those eaten by insects, we subtract the seeds that died and were eaten from the total.
+   - Calculation: 
+     - Seeds that died in water: 100
+     - Seeds eaten by insects: 50
+     - Total seeds lost: \( 100 + 50 = 150 \)
+     - Remaining seeds: \( 300 - 150 = 150 \)
+
+5. **Seeds that Sprout**: Half of the remaining seeds sprout and are immediately eaten.
+   - Calculation: 
+     - Half of the remaining seeds: \( \frac{1}{2} \times 150 = 75 \) seeds sprout and are eaten.
+
+6. **Dandelions that Survive**: To find out how many dandelions survive long enough to flower, we subtract the seeds that sprouted and were eaten from the remaining seeds.
+   - Calculation: 
+     - Remaining seeds after sprouting: \( 150 - 75 = 75 \)
+
+Thus, the number of dandelions that survive long enough to flower is 75.
+
+Answer: 75",1.0,True,6,False,True,True,True
+math,few_shot_cot,"By the time Anne is two times as old as Emile, Emile will be six times as old as Maude. If Maude will be 8 years old, how old will Anne be?",96,"To solve the problem, we need to determine the ages of Anne, Emile, and Maude based on the information given.
+
+1. We know that Maude will be 8 years old.
+2. The problem states that when Anne is two times as old as Emile, Emile will be six times as old as Maude.
+3. Since Maude will be 8 years old, we can set up the equation for Emile's age at that time. If Emile is \( x \) years old when Maude is 8, then:
+   \[
+   6 \times 8 = 48
+   \]
+   This means Emile will be 48 years old when Maude is 8.
+
+4. Now, we need to find out how old Anne will be when Emile is 48. The problem states that at that time, Anne will be two times as old as Emile. Therefore:
+   \[
+   \text{Anne's age} = 2 \times \text{Emile's age} = 2 \times 48 = 96
+   \]
+
+So, when Maude is 8 years old, Anne will be 96 years old.
+
+Answer: 96",1.0,True,5,True,False,True,True
+math,few_shot_cot,Mason is mixing up some salad dressing. He takes a bowl that holds 150 ml and fills it 2/3rds with oil and 1/3rd with vinegar. The oil weighs 5 g/ml and the vinegar weighs 4 g/ml. How many grams does the salad dressing weigh?,700,"To find the total weight of the salad dressing, we first need to determine the volumes of oil and vinegar in the bowl.
+
+1. **Calculate the volume of oil:**
+   - The bowl holds 150 ml.
+   - Since Mason fills it 2/3rds with oil, the volume of oil is:
+     \[
+     \text{Volume of oil} = \frac{2}{3} \times 150 \text{ ml} = 100 \text{ ml}
+     \]
+
+2. **Calculate the volume of vinegar:**
+   - The remaining 1/3rd of the bowl is filled with vinegar, so the volume of vinegar is:
+     \[
+     \text{Volume of vinegar} = \frac{1}{3} \times 150 \text{ ml} = 50 \text{ ml}
+     \]
+
+3. **Calculate the weight of the oil:**
+   - The weight of the oil can be calculated using its density (5 g/ml):
+     \[
+     \text{Weight of oil} = \text{Volume of oil} \times \text{Density of oil} = 100 \text{ ml} \times 5 \text{ g/ml} = 500 \text{ g}
+     \]
+
+4. **Calculate the weight of the vinegar:**
+   - The weight of the vinegar can be calculated using its density (4 g/ml):
+     \[
+     \text{Weight of vinegar} = \text{Volume of vinegar} \times \text{Density of vinegar} = 50 \text{ ml} \times 4 \text{ g/ml} = 200 \text{ g}
+     \]
+
+5. **Calculate the total weight of the salad dressing:**
+   - Now, we add the weight of the oil and the weight of the vinegar:
+     \[
+     \text{Total weight} = \text{Weight of oil} + \text{Weight of vinegar} = 500 \text{ g} + 200 \text{ g} = 700 \text{ g}
+     \]
+
+Answer: 700",1.0,True,6,True,True,True,True
+math,few_shot_cot,TreShawn's mom needs to order pizza for her son and his two friends. She knows that TreShawn always eats 1/2 a pizza. His friend Michael eats 1/3 of a pizza and his other friend LaMar eats 1/6 of a pizza. How many pizzas does she need to order?,1,"To find out how many pizzas TreShawn's mom needs to order, we first need to determine the total amount of pizza that TreShawn and his friends will eat.
+
+1. TreShawn eats 1/2 of a pizza.
+2. Michael eats 1/3 of a pizza.
+3. LaMar eats 1/6 of a pizza.
+
+Next, we need to add these fractions together. To do this, we need a common denominator. The denominators are 2, 3, and 6. The least common multiple of these numbers is 6.
+
+Now, we convert each fraction to have a denominator of 6:
+
+- TreShawn: \( \frac{1}{2} = \frac{3}{6} \) (because \( 1 \times 3 = 3 \) and \( 2 \times 3 = 6 \))
+- Michael: \( \frac{1}{3} = \frac{2}{6} \) (because \( 1 \times 2 = 2 \) and \( 3 \times 2 = 6 \))
+- LaMar: \( \frac{1}{6} = \frac{1}{6} \) (already has a denominator of 6)
+
+Now we can add these fractions together:
+
+\[
+\frac{3}{6} + \frac{2}{6} + \frac{1}{6} = \frac{3 + 2 + 1}{6} = \frac{6}{6} = 1
+\]
+
+This means that TreShawn and his friends will eat a total of 1 whole pizza.
+
+Since they need 1 whole pizza, TreShawn's mom needs to order:
+
+Answer: 1",1.0,True,5,True,True,False,True
+math,few_shot_cot,"Out of the 200 apples in an orchard, 40 percent were rotten. Also, 70 percent of the rotten apples smelled. How many rotten apples in the orchard did not smell?",24,"To find out how many rotten apples in the orchard did not smell, we can follow these steps:
+
+1. **Calculate the number of rotten apples**: 
+   - We know that 40 percent of the 200 apples were rotten. 
+   - To find the number of rotten apples, we calculate 40% of 200:
+     \[
+     0.40 \times 200 = 80 \text{ rotten apples}
+     \]
+
+2. **Calculate the number of rotten apples that smelled**: 
+   - We are told that 70 percent of the rotten apples smelled. 
+   - To find the number of rotten apples that smelled, we calculate 70% of the 80 rotten apples:
+     \[
+     0.70 \times 80 = 56 \text{ rotten apples that smelled}
+     \]
+
+3. **Calculate the number of rotten apples that did not smell**: 
+   - To find the number of rotten apples that did not smell, we subtract the number of rotten apples that smelled from the total number of rotten apples:
+     \[
+     80 - 56 = 24 \text{ rotten apples that did not smell}
+     \]
+
+Answer: 24",1.0,True,3,False,True,False,True
+math,few_shot_cot,Tom and Elizabeth have a competition to climb a hill. Elizabeth takes 30 minutes to climb the hill. Tom takes four times as long as Elizabeth does to climb the hill. How many hours does it take Tom to climb up the hill?,2,"Tom takes four times as long as Elizabeth to climb the hill. Since Elizabeth takes 30 minutes, we calculate Tom's time as follows: 4 × 30 minutes = 120 minutes. To convert minutes into hours, we divide by 60: 120 minutes ÷ 60 = 2 hours. 
+
+Answer: 2",1.0,True,8,False,False,False,True
+math,few_shot_cot,"Barry stands on his head for 10 minutes at a time, but then he must sit for 5 minutes before he can take another turn standing on his head.  How many turns can Barry take standing on his head during a single 2-hour period?",8,"To find out how many turns Barry can take standing on his head during a single 2-hour period, we first need to convert the time into minutes. 
+
+1. **Convert 2 hours to minutes**: 
+   - 2 hours = 2 × 60 = 120 minutes.
+
+2. **Determine the total time for one complete turn**: 
+   - Barry stands on his head for 10 minutes and then sits for 5 minutes. 
+   - Total time for one complete turn = 10 minutes (standing) + 5 minutes (sitting) = 15 minutes.
+
+3. **Calculate how many complete turns fit into 120 minutes**: 
+   - To find the number of complete turns, we divide the total time by the time for one complete turn: 
+   - Number of turns = 120 minutes ÷ 15 minutes per turn = 8 turns.
+
+Answer: 8",1.0,True,5,True,False,False,True
+math,few_shot_cot,"A few friends are making a small movie.  They hire a few actors and that cost $1200.  They also get food for the 50 people there.  Each person gets $3 worth of food.  Equipment rental costs twice as much as food and actors combined.  They sold the movie for $10,000.  How much profit did they make?",5950,"To find the profit made from the movie, we need to calculate the total costs and then subtract that from the revenue earned from selling the movie.
+
+1. **Cost of actors**: The cost of hiring actors is given as $1200.
+
+2. **Cost of food**: There are 50 people, and each person gets $3 worth of food. Therefore, the total cost for food is:
+   \[
+   50 \times 3 = 150
+   \]
+
+3. **Total cost of actors and food**: Now we add the cost of actors and food together:
+   \[
+   1200 + 150 = 1350
+   \]
+
+4. **Cost of equipment rental**: The equipment rental costs twice as much as the combined cost of food and actors. Therefore, the cost of equipment rental is:
+   \[
+   2 \times 1350 = 2700
+   \]
+
+5. **Total costs**: Now we add the cost of actors, food, and equipment rental to find the total costs:
+   \[
+   1350 + 2700 = 4050
+   \]
+
+6. **Revenue from selling the movie**: The movie was sold for $10,000.
+
+7. **Profit calculation**: To find the profit, we subtract the total costs from the revenue:
+   \[
+   10000 - 4050 = 5950
+   \]
+
+Answer: 5950",1.0,True,8,True,True,True,True
+math,few_shot_cot,Cristine bought a dozen lemons and gave 1/4 of them to her neighbor. How many lemons does Cristine have left?,9,"Cristine bought a dozen lemons, which is 12 lemons. She gave away 1/4 of them to her neighbor. To find out how many lemons she gave away, we calculate 1/4 of 12: 
+
+1/4 × 12 = 3 lemons.
+
+Now, to find out how many lemons Cristine has left, we subtract the number of lemons she gave away from the total she originally had:
+
+12 - 3 = 9 lemons.
+
+Answer: 9",1.0,True,13,False,True,False,True
+math,few_shot_cot,"Giselle had 20 female doves in a birdhouse. After a month, the doves laid 3 eggs each. If 3/4 of the eggs hatched, calculate the total number of doves Giselle has now.",65,"Giselle starts with 20 female doves. Each dove lays 3 eggs, so the total number of eggs laid is 20 × 3 = 60 eggs. If 3/4 of the eggs hatched, we calculate the number of eggs that hatched: 3/4 × 60 = 45 eggs. Since each hatched egg becomes a dove, Giselle now has 20 original doves + 45 new doves = 65 doves in total. 
+
+Answer: 65",1.0,True,14,False,True,True,True
+math,few_shot_cot,Macey saves to buy herself a shirt that costs $3. She was able to save $1.50 already. How many weeks does she need to save for the remaining amount if she saves $0.50 per week?,3,"Macey needs a total of $3 for the shirt. She has already saved $1.50, so we need to find out how much more she needs to save. 
+
+First, we calculate the remaining amount:
+Remaining amount = Total cost - Amount saved = $3 - $1.50 = $1.50.
+
+Next, Macey saves $0.50 each week. To find out how many weeks she needs to save the remaining $1.50, we divide the remaining amount by her weekly savings:
+Number of weeks = Remaining amount ÷ Weekly savings = $1.50 ÷ $0.50 = 3 weeks.
+
+Answer: 3 weeks",0.6666666666666666,True,2,True,False,True,True
+math,few_shot_cot,There are 360 balls in the ball pit. If a quarter of the balls in the ball pit are red and a fifth of the remaining balls are blue. How many of the balls are neither red nor blue?,216,"To find out how many balls are neither red nor blue, we can follow these steps:
+
+1. **Calculate the number of red balls**: A quarter of the balls in the ball pit are red. Since there are 360 balls, we calculate:
+   \[
+   \text{Number of red balls} = \frac{1}{4} \times 360 = 90
+   \]
+
+2. **Calculate the remaining balls after removing the red balls**: We subtract the number of red balls from the total number of balls:
+   \[
+   \text{Remaining balls} = 360 - 90 = 270
+   \]
+
+3. **Calculate the number of blue balls**: A fifth of the remaining balls are blue. We calculate:
+   \[
+   \text{Number of blue balls} = \frac{1}{5} \times 270 = 54
+   \]
+
+4. **Calculate the total number of balls that are either red or blue**: We add the number of red and blue balls together:
+   \[
+   \text{Total red and blue balls} = 90 + 54 = 144
+   \]
+
+5. **Calculate the number of balls that are neither red nor blue**: We subtract the total number of red and blue balls from the original total:
+   \[
+   \text{Balls neither red nor blue} = 360 - 144 = 216
+   \]
+
+Answer: 216",1.0,True,5,False,True,False,True
+math,few_shot_cot,"Johnny is a dog walker. He can walk 3 dogs at once. He gets paid $15 for a 30-minute walk and $20 for a 60-minute walk. Johnny works for 4 hours per day. If he always walks the maximum number of dogs possible and 6 dogs have 60-minute walks per day, how much money does he make in a week where he works 5 days?",1500,"To determine how much money Johnny makes in a week, we need to break down the information given:
+
+1. **Maximum number of dogs he can walk at once**: Johnny can walk 3 dogs at once.
+2. **Duration of walks**: He has 6 dogs that he walks for 60 minutes each.
+3. **Payment for a 60-minute walk**: Johnny earns $20 for each 60-minute walk.
+4. **Total hours worked per day**: Johnny works for 4 hours per day.
+5. **Number of days worked in a week**: Johnny works 5 days a week.
+
+Now, let's calculate how many 60-minute walks he can do in a day:
+
+- Since each walk is 60 minutes (1 hour), in 4 hours, Johnny can do:
+  \[
+  4 \text{ hours} \div 1 \text{ hour per walk} = 4 \text{ walks}
+  \]
+
+- Since he can walk 3 dogs at once, in 4 walks, he can walk:
+  \[
+  4 \text{ walks} \times 3 \text{ dogs per walk} = 12 \text{ dogs}
+  \]
+
+However, he is only walking 6 dogs for 60 minutes each. Therefore, he will complete the walks for these 6 dogs in:
+- 2 walks (since he can walk 3 dogs at once):
+  \[
+  6 \text{ dogs} \div 3 \text{ dogs per walk} = 2 \text{ walks}
+  \]
+
+- Each of these 2 walks earns him $20:
+  \[
+  2 \text{ walks} \times 20 \text{ dollars per walk} = 40 \text{ dollars}
+  \]
+
+Now, we need to calculate how much he makes in a week:
+- Since he works 5 days a week, his total earnings for the week are:
+  \[
+  40 \text{ dollars per day} \times 5 \text{ days} = 200 \text{ dollars}
+  \]
+
+Thus, the total amount of money Johnny makes in a week is:
+Answer: 200",0.0,False,5,True,False,True,True
+math,few_shot_cot,"If Lyn donates $240 to a private organization each year where 1/3 of it goes to the community pantry project, 1/2 goes to the local crisis fund, 1/4 of the remaining goes to livelihood project funds, and the rest is for contingency funds. How much goes to contingency fund?",30,"To find out how much goes to the contingency fund, we will break down the donations step by step.
+
+1. **Total Donation**: Lyn donates $240 each year.
+
+2. **Amount to Community Pantry Project**: 
+   - 1/3 of $240 goes to the community pantry project.
+   - Calculation: \( \frac{1}{3} \times 240 = 80 \)
+   - So, $80 goes to the community pantry project.
+
+3. **Amount to Local Crisis Fund**: 
+   - 1/2 of the total donation goes to the local crisis fund.
+   - Calculation: \( \frac{1}{2} \times 240 = 120 \)
+   - So, $120 goes to the local crisis fund.
+
+4. **Remaining Amount After Community Pantry and Local Crisis Fund**:
+   - Total amount donated: $240
+   - Amount already allocated: $80 (community pantry) + $120 (local crisis fund) = $200
+   - Remaining amount: \( 240 - 200 = 40 \)
+
+5. **Amount to Livelihood Project Funds**:
+   - 1/4 of the remaining amount goes to livelihood project funds.
+   - Calculation: \( \frac{1}{4} \times 40 = 10 \)
+   - So, $10 goes to the livelihood project funds.
+
+6. **Amount for Contingency Funds**:
+   - The rest of the remaining amount after allocating to the livelihood project funds goes to the contingency funds.
+   - Remaining amount after livelihood project funds: \( 40 - 10 = 30 \)
+
+Thus, the amount that goes to the contingency fund is $30.
+
+Answer: 30",1.0,True,6,True,True,True,True
+math,few_shot_cot,"Jenny makes and freezes pans of lasagna all week so she can sell them at the market on the weekend.  It costs Jenny $10.00 in ingredients to make 1 pan of lasagna.  If she makes and sells 20 pans over the weekend at $25.00 apiece, how much does she make after factoring in expenses?",300,"To find out how much Jenny makes after factoring in expenses, we need to calculate her total revenue from selling the lasagna and then subtract her total costs.
+
+1. **Calculate the total revenue from selling the lasagna:**
+   - Jenny sells each pan of lasagna for $25.00.
+   - She makes and sells 20 pans.
+   - Total revenue = 20 pans × $25.00 per pan = $500.00.
+
+2. **Calculate the total cost of making the lasagna:**
+   - It costs Jenny $10.00 in ingredients to make 1 pan of lasagna.
+   - Total cost = 20 pans × $10.00 per pan = $200.00.
+
+3. **Calculate the profit:**
+   - Profit = Total revenue - Total cost = $500.00 - $200.00 = $300.00.
+
+Answer: $300.00",0.6666666666666666,True,4,True,False,False,True
+math,few_shot_cot,Caleb bought 10 cartons of ice cream and 4 cartons of frozen yoghurt. Each carton of ice cream cost $4 and each carton of frozen yoghurt cost $1. How much more did Caleb spend on ice cream than on frozen yoghurt?,36,"Caleb bought 10 cartons of ice cream, and each carton costs $4. So, the total cost for the ice cream is 10 × 4 = $40.
+
+He also bought 4 cartons of frozen yoghurt, and each carton costs $1. Therefore, the total cost for the frozen yoghurt is 4 × 1 = $4.
+
+To find out how much more Caleb spent on ice cream than on frozen yoghurt, we subtract the total cost of the frozen yoghurt from the total cost of the ice cream: 
+
+$40 (ice cream) - $4 (frozen yoghurt) = $36.
+
+Answer: $36",1.0,True,13,True,False,True,True
+math,few_shot_cot,"The school decided to add 20% to the gym budget. In a normal month, they could buy 15 dodgeballs for $5 each if they spent the entire budget on that. If they only buy softballs instead, which cost $9 each, how many can they buy with the new budget?",10,"To find out how many softballs the school can buy with the new budget after the 20% increase, we first need to determine the original budget.
+
+1. **Calculate the original budget**: 
+   - The school can buy 15 dodgeballs at $5 each.
+   - Total cost for dodgeballs = 15 × $5 = $75.
+   - Therefore, the original budget is $75.
+
+2. **Calculate the new budget after the 20% increase**:
+   - Increase = 20% of $75 = 0.20 × $75 = $15.
+   - New budget = Original budget + Increase = $75 + $15 = $90.
+
+3. **Determine how many softballs can be bought with the new budget**:
+   - Each softball costs $9.
+   - Number of softballs = New budget ÷ Cost per softball = $90 ÷ $9 = 10.
+
+Answer: 10",1.0,True,4,True,False,True,True
+math,few_shot_cot,Hakeem has always loved artichoke dip and plans to make it this weekend. He has $15 dollars to buy artichokes and can find the rest of the ingredients at home. It takes 3 artichokes to make 5 ounces of dip. How many ounces can he make if artichokes cost $1.25 each?,20,"To determine how many ounces of artichoke dip Hakeem can make, we first need to find out how many artichokes he can buy with his $15.
+
+1. **Calculate the number of artichokes he can buy:**
+   - The cost of one artichoke is $1.25.
+   - To find out how many artichokes he can buy with $15, we divide the total amount of money by the cost of one artichoke:
+     \[
+     \text{Number of artichokes} = \frac{15}{1.25} = 12
+     \]
+
+2. **Determine how many ounces of dip he can make:**
+   - According to the recipe, it takes 3 artichokes to make 5 ounces of dip.
+   - First, we find out how many sets of 3 artichokes he has with the 12 artichokes he can buy:
+     \[
+     \text{Number of sets of 3 artichokes} = \frac{12}{3} = 4
+     \]
+   - Since each set of 3 artichokes makes 5 ounces of dip, we multiply the number of sets by the ounces produced per set:
+     \[
+     \text{Total ounces of dip} = 4 \times 5 = 20
+     \]
+
+Answer: 20",1.0,True,4,True,False,False,True
+math,few_shot_cot,"Sarah's age is equal to three times Mark's age minus 4. Mark is four years older than Billy. Billy is half Ana's age. If Ana will be 15 in 3 years, how old is Sarah?",26,"To find Sarah's age, we need to break down the information given step by step.
+
+1. **Determine Ana's current age**: 
+   Ana will be 15 in 3 years, so currently, she is:
+   \[
+   15 - 3 = 12 \text{ years old.}
+   \]
+
+2. **Find Billy's age**: 
+   Billy is half of Ana's age, so:
+   \[
+   \text{Billy's age} = \frac{12}{2} = 6 \text{ years old.}
+   \]
+
+3. **Calculate Mark's age**: 
+   Mark is four years older than Billy, so:
+   \[
+   \text{Mark's age} = 6 + 4 = 10 \text{ years old.}
+   \]
+
+4. **Determine Sarah's age**: 
+   According to the problem, Sarah's age is equal to three times Mark's age minus 4. Therefore:
+   \[
+   \text{Sarah's age} = 3 \times 10 - 4 = 30 - 4 = 26 \text{ years old.}
+   \]
+
+Answer: 26",1.0,True,4,True,True,True,True
+math,few_shot_cot,"Purple Valley has one-quarter as many skirts as Seafoam Valley, and Seafoam Valley has two-thirds as many skirts as Azure Valley. If Azure Valley has 60 skirts, how many skirts does Purple Valley have?",10,"To find out how many skirts Purple Valley has, we first need to determine how many skirts Seafoam Valley has based on the information given about Azure Valley.
+
+1. Azure Valley has 60 skirts.
+2. Seafoam Valley has two-thirds as many skirts as Azure Valley. So, we calculate:
+   \[
+   \text{Skirts in Seafoam Valley} = \frac{2}{3} \times 60 = 40
+   \]
+
+3. Now, we know that Purple Valley has one-quarter as many skirts as Seafoam Valley. Therefore, we calculate:
+   \[
+   \text{Skirts in Purple Valley} = \frac{1}{4} \times 40 = 10
+   \]
+
+Thus, the total number of skirts in Purple Valley is 10.
+
+Answer: 10",1.0,True,4,True,False,True,True
+math,few_shot_cot,"After complaints from the residents of Tatoosh about the number of cats on the island, the wildlife service carried out a relocation mission that saw the number of cats on the island drastically reduced. On the first relocation mission, 600 cats were relocated from the island to a neighboring island. On the second mission, half of the remaining cats were relocated to a rescue center inland. If the number of cats originally on the island was 1800, how many cats remained on the island after the rescue mission?",600,"To find out how many cats remained on the island after the relocation missions, we can follow these steps:
+
+1. **Start with the original number of cats**: There were originally 1800 cats on the island.
+
+2. **First relocation mission**: 600 cats were relocated from the island. 
+   - Remaining cats after the first mission: 
+   \[
+   1800 - 600 = 1200
+   \]
+
+3. **Second relocation mission**: Half of the remaining cats (which is now 1200) were relocated to a rescue center.
+   - Number of cats relocated in the second mission: 
+   \[
+   \frac{1200}{2} = 600
+   \]
+   - Remaining cats after the second mission: 
+   \[
+   1200 - 600 = 600
+   \]
+
+4. **Final count of cats remaining on the island**: After both relocation missions, there are 600 cats left on the island.
+
+Answer: 600",1.0,True,9,True,True,False,True
+math,few_shot_cot,Remi wants to drink more water. He has a refillable water bottle that holds 20 ounces of water. That week Remi refills the bottle 3 times a day and drinks the whole bottle each time except for twice when he accidentally spills 5 ounces the first time and 8 ounces the second time. In 7 days how many ounces of water does Remi drink?,407,"To find out how many ounces of water Remi drinks in a week, we can break it down step by step.
+
+1. **Daily Refills**: Remi refills his water bottle 3 times a day. Each refill holds 20 ounces. Therefore, the total amount of water he refills in one day is:
+   \[
+   3 \text{ refills} \times 20 \text{ ounces} = 60 \text{ ounces}
+   \]
+
+2. **Weekly Refills**: Since there are 7 days in a week, the total amount of water he refills in a week is:
+   \[
+   60 \text{ ounces/day} \times 7 \text{ days} = 420 \text{ ounces}
+   \]
+
+3. **Spills**: Remi spills water twice during the week. The first spill is 5 ounces and the second spill is 8 ounces. The total amount spilled is:
+   \[
+   5 \text{ ounces} + 8 \text{ ounces} = 13 \text{ ounces}
+   \]
+
+4. **Total Water Drank**: To find out how much water Remi actually drinks, we subtract the total amount spilled from the total amount refilled:
+   \[
+   420 \text{ ounces} - 13 \text{ ounces} = 407 \text{ ounces}
+   \]
+
+Therefore, the total amount of water Remi drinks in a week is:
+Answer: 407",1.0,True,6,True,False,True,True
+math,few_shot_cot,"Billy is reducing raspberry juice down to make syrup. He reduces 6 quarts of juice to 1/12 of its original volume, then adds 1 cup of sugar. What is the final volume of the syrup in cups? (There are 4 cups in a quart)",3,"To find the final volume of the syrup in cups, we start with the initial volume of raspberry juice and follow the steps of reduction and addition.
+
+1. **Initial Volume**: Billy starts with 6 quarts of raspberry juice.
+
+2. **Reduction**: He reduces this juice to 1/12 of its original volume. 
+   - To find the reduced volume, we calculate:
+     \[
+     \text{Reduced Volume} = 6 \text{ quarts} \times \frac{1}{12} = \frac{6}{12} = \frac{1}{2} \text{ quart}
+     \]
+
+3. **Convert Reduced Volume to Cups**: Since there are 4 cups in a quart, we convert the reduced volume from quarts to cups:
+   \[
+   \text{Cups from Reduced Volume} = \frac{1}{2} \text{ quart} \times 4 \text{ cups/quart} = 2 \text{ cups}
+   \]
+
+4. **Adding Sugar**: Billy then adds 1 cup of sugar to the reduced volume of syrup:
+   \[
+   \text{Final Volume} = 2 \text{ cups} + 1 \text{ cup} = 3 \text{ cups}
+   \]
+
+Thus, the final volume of the syrup is:
+Answer: 3",1.0,True,5,True,True,True,True
+math,few_shot_cot,"John buys 2 packs of gum and 3 candy bars.  Each stick of gum cost half as much as the candy bar.  If the candy bar cost $1.5 each, how much did he pay in total?",6,"To find out how much John paid in total, we first need to determine the cost of the gum and the candy bars.
+
+1. **Cost of the candy bars**: Each candy bar costs $1.50. John buys 3 candy bars, so:
+   \[
+   3 \text{ candy bars} \times 1.50 \text{ dollars/candy bar} = 4.50 \text{ dollars}
+   \]
+
+2. **Cost of the gum**: Each stick of gum costs half as much as a candy bar. Since a candy bar costs $1.50, the cost of each stick of gum is:
+   \[
+   \frac{1.50 \text{ dollars}}{2} = 0.75 \text{ dollars}
+   \]
+   John buys 2 packs of gum. Assuming each pack contains 1 stick of gum (since the number of sticks per pack is not specified), the total cost for the gum is:
+   \[
+   2 \text{ packs} \times 0.75 \text{ dollars/pack} = 1.50 \text{ dollars}
+   \]
+
+3. **Total cost**: Now we add the cost of the candy bars and the gum together:
+   \[
+   4.50 \text{ dollars (candy bars)} + 1.50 \text{ dollars (gum)} = 6.00 \text{ dollars}
+   \]
+
+Answer: 6.00",0.6666666666666666,True,4,True,False,True,True
+math,few_shot_cot,"My brother and I have thirty minutes to go to school, without being late. It takes us 15 minutes to arrive at the school gate, and another 6 minutes to get to the school building. How much time do we have to get to our room, without being late?",9,"To determine how much time my brother and I have to get to our room without being late, we start with the total time we have, which is 30 minutes. 
+
+Next, we calculate the time it takes to get to the school gate, which is 15 minutes. After that, we need to add the time it takes to get from the school gate to the school building, which is 6 minutes. 
+
+So, the total time spent traveling to the school gate and then to the school building is:
+15 minutes (to the gate) + 6 minutes (to the building) = 21 minutes.
+
+Now, we subtract this total travel time from the total time we have:
+30 minutes (total time) - 21 minutes (travel time) = 9 minutes.
+
+Therefore, we have 9 minutes left to get to our room without being late.
+
+Answer: 9 minutes",0.6666666666666666,True,2,True,False,True,True
+math,few_shot_cot,"For his birthday, Geoffrey received clothes and money. His grandmother gave him €20, his aunt €25 and his uncle €30. With what he already had, he now has €125 in his wallet. He goes to a video game store and gets 3 games that cost 35 euros each. How much does he have left after this purchase?",20,"Geoffrey starts with €125 in his wallet. He buys 3 video games, each costing €35. To find the total cost of the games, we calculate:
+
+3 games × €35 per game = €105.
+
+Now, we subtract the total cost of the games from the amount Geoffrey had:
+
+€125 - €105 = €20.
+
+So, after his purchase, Geoffrey has €20 left.
+
+Answer: 20",1.0,True,10,False,False,True,True
+math,few_shot_cot,"Aryan owes Fernanda $1200, which is twice what Kyro owes Fernanda. Aryan decides to pay 60% of her debt to Fernanda, and Kyro pays Fernanda 80% of her dept. If Fernanda had $300 in her savings account and adds the money she's been paid by her debtors to the savings account, calculate the total amount of money in her savings account now.",1500,"To solve the problem, we need to break it down step by step.
+
+1. **Determine how much Kyro owes Fernanda**: 
+   - We know that Aryan owes Fernanda $1200, which is twice what Kyro owes. 
+   - Therefore, if we let \( K \) represent the amount Kyro owes, we have:
+     \[
+     1200 = 2K
+     \]
+   - Solving for \( K \):
+     \[
+     K = \frac{1200}{2} = 600
+     \]
+   - So, Kyro owes Fernanda $600.
+
+2. **Calculate how much Aryan pays Fernanda**:
+   - Aryan decides to pay 60% of her debt:
+     \[
+     \text{Amount Aryan pays} = 0.60 \times 1200 = 720
+     \]
+
+3. **Calculate how much Kyro pays Fernanda**:
+   - Kyro pays 80% of his debt:
+     \[
+     \text{Amount Kyro pays} = 0.80 \times 600 = 480
+     \]
+
+4. **Calculate the total amount paid to Fernanda**:
+   - Total amount paid to Fernanda by both Aryan and Kyro:
+     \[
+     \text{Total paid} = 720 + 480 = 1200
+     \]
+
+5. **Calculate the total amount in Fernanda's savings account**:
+   - Fernanda initially has $300 in her savings account. After adding the total amount paid by Aryan and Kyro:
+     \[
+     \text{Total in savings} = 300 + 1200 = 1500
+     \]
+
+Therefore, the total amount of money in Fernanda's savings account now is:
+
+**Answer: 1500**",1.0,True,5,True,True,True,True

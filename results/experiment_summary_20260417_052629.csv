@@ -1,0 +1,10 @@
+dataset,prompt_type,exact_match,f1_score,total_samples,avg_reasoning_steps,has_step_keywords_pct,has_conclusion_pct
+math,standard,0.8,0.15837733834792664,50,4.78,0.84,0.98
+math,zero_shot_cot,0.86,0.16725210920008338,50,5.04,0.68,0.98
+math,few_shot_cot,0.96,0.9133333333333333,50,6.24,0.78,0.68
+commonsense,standard,0.74,0.6973252525252525,50,0.0,0.2,0.2
+commonsense,zero_shot_cot,0.46,0.3586792114695341,50,0.84,0.36,0.32
+commonsense,few_shot_cot,0.86,0.8457142857142856,50,0.0,0.5,0.54
+multihop,standard,0.28,0.07172103680733209,50,0.9,0.14,0.16
+multihop,zero_shot_cot,0.34,0.12962816107488762,50,4.08,0.64,0.78
+multihop,few_shot_cot,0.42,0.355594328376937,50,1.72,0.4,0.34

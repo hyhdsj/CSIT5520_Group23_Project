@@ -1,0 +1,150 @@
+======================================================================
+CHAIN-OF-THOUGHT PROMPTING EXPERIMENT REPORT
+======================================================================
+
+Model: gpt-4o-mini
+Sample size per dataset: 50
+Temperature: 0
+Generated: 2026-04-17 05:26:29
+
+RESULTS SUMMARY
+----------------------------------------------------------------------
+    dataset   prompt_type  exact_match  f1_score  total_samples  avg_reasoning_steps  has_step_keywords_pct  has_conclusion_pct
+       math      standard         0.80  0.158377             50                 4.78                   0.84                0.98
+       math zero_shot_cot         0.86  0.167252             50                 5.04                   0.68                0.98
+       math  few_shot_cot         0.96  0.913333             50                 6.24                   0.78                0.68
+commonsense      standard         0.74  0.697325             50                 0.00                   0.20                0.20
+commonsense zero_shot_cot         0.46  0.358679             50                 0.84                   0.36                0.32
+commonsense  few_shot_cot         0.86  0.845714             50                 0.00                   0.50                0.54
+   multihop      standard         0.28  0.071721             50                 0.90                   0.14                0.16
+   multihop zero_shot_cot         0.34  0.129628             50                 4.08                   0.64                0.78
+   multihop  few_shot_cot         0.42  0.355594             50                 1.72                   0.40                0.34
+
+
+======================================================================
+DATASET: MATH
+======================================================================
+
+STANDARD:
+  Exact Match: 0.8000
+  F1 Score: 0.1584
+  Avg Reasoning Steps: 4.78
+
+  Example Response:
+  Question: For every 12 cans you recycle, you receive $0.50, and for every 5 kilograms of newspapers, you receive $1.50. If your family collected 144 cans and 20...
+  Response: To find out how much money you would receive from recycling the cans and newspapers, we can break it down into two parts: the money from the cans and the money from the newspapers.
+
+**Step 1: Calculat...
+
+ZERO_SHOT_COT:
+  Exact Match: 0.8600
+  F1 Score: 0.1673
+  Avg Reasoning Steps: 5.04
+
+  Example Response:
+  Question: For every 12 cans you recycle, you receive $0.50, and for every 5 kilograms of newspapers, you receive $1.50. If your family collected 144 cans and 20...
+  Response: To find out how much money you would receive for recycling the cans and newspapers, we can break it down into two parts: the money earned from the cans and the money earned from the newspapers.
+
+### S...
+
+FEW_SHOT_COT:
+  Exact Match: 0.9600
+  F1 Score: 0.9133
+  Avg Reasoning Steps: 6.24
+
+  Example Response:
+  Question: For every 12 cans you recycle, you receive $0.50, and for every 5 kilograms of newspapers, you receive $1.50. If your family collected 144 cans and 20...
+  Response: To find out how much money you would receive for recycling the cans and newspapers, we can break it down into two parts: the money from the cans and the money from the newspapers.
+
+1. **Calculating mo...
+
+======================================================================
+DATASET: COMMONSENSE
+======================================================================
+
+STANDARD:
+  Exact Match: 0.7400
+  F1 Score: 0.6973
+  Avg Reasoning Steps: 0.00
+
+  Example Response:
+  Question: What is likely to happen to someone who is learning?
+
+A. overconfidence
+B. effectiveness
+C. knowing more
+D. head grows larger
+E. growth...
+  Response: The most appropriate answer to the question "What is likely to happen to someone who is learning?" is:
+
+C. knowing more
+
+While options like B (effectiveness) and E (growth) could also be relevant in c...
+
+ZERO_SHOT_COT:
+  Exact Match: 0.4600
+  F1 Score: 0.3587
+  Avg Reasoning Steps: 0.84
+
+  Example Response:
+  Question: What is likely to happen to someone who is learning?
+
+A. overconfidence
+B. effectiveness
+C. knowing more
+D. head grows larger
+E. growth...
+  Response: To determine what is likely to happen to someone who is learning, let's analyze each option:
+
+A. **Overconfidence** - While some learners may become overconfident as they gain knowledge, this is not a...
+
+FEW_SHOT_COT:
+  Exact Match: 0.8600
+  F1 Score: 0.8457
+  Avg Reasoning Steps: 0.00
+
+  Example Response:
+  Question: What is likely to happen to someone who is learning?
+
+A. overconfidence
+B. effectiveness
+C. knowing more
+D. head grows larger
+E. growth...
+  Response: Reasoning: When someone is learning, they typically gain new knowledge and skills. This process often leads to an increase in understanding and competence, which can be described as "knowing more." Ad...
+
+======================================================================
+DATASET: MULTIHOP
+======================================================================
+
+STANDARD:
+  Exact Match: 0.2800
+  F1 Score: 0.0717
+  Avg Reasoning Steps: 0.90
+
+  Example Response:
+  Question: The Dogwoman telemovies were created by an actress born in what year?...
+  Response: The Dogwoman telemovies were created by actress and writer, **Kerry Ann McKinnon**, who was born in **1967**....
+
+ZERO_SHOT_COT:
+  Exact Match: 0.3400
+  F1 Score: 0.1296
+  Avg Reasoning Steps: 4.08
+
+  Example Response:
+  Question: The Dogwoman telemovies were created by an actress born in what year?...
+  Response: To determine the year the actress who created the Dogwoman telemovies was born, we need to identify the actress associated with the Dogwoman series. 
+
+1. **Identify the Actress**: The Dogwoman telemov...
+
+FEW_SHOT_COT:
+  Exact Match: 0.4200
+  F1 Score: 0.3556
+  Avg Reasoning Steps: 1.72
+
+  Example Response:
+  Question: The Dogwoman telemovies were created by an actress born in what year?...
+  Response: To answer the question, we need to identify the actress who created the Dogwoman telemovies and find out the year she was born. 
+
+1. Research the Dogwoman telemovies to find out who created them. 
+2. ...

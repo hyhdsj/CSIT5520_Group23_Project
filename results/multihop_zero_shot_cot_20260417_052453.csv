@@ -1,0 +1,619 @@
+dataset,prompt_type,question,ground_truth,model_response,f1_score,exact_match,reasoning_steps,has_has_step_keywords,has_has_calculation,has_has_conclusion,has_is_coherent
+multihop,zero_shot_cot,The Dogwoman telemovies were created by an actress born in what year?,1961,"To determine the year the actress who created the Dogwoman telemovies was born, we need to identify the actress associated with the Dogwoman series. 
+
+1. **Identify the Actress**: The Dogwoman telemovies were created by actress and producer, **Cynthia Rothrock**.
+
+2. **Find the Birth Year**: Cynthia Rothrock was born on **March 8, 1957**.
+
+3. **Conclusion**: Therefore, the actress who created the Dogwoman telemovies was born in **1957**.",0.0,False,3,True,False,True,True
+multihop,zero_shot_cot,Who fills in occasionally for the meteorologist who replaced  Ginger Zee ?,Kait Parker,"To determine who occasionally fills in for the meteorologist who replaced Ginger Zee, we need to follow these steps:
+
+1. **Identify Ginger Zee's Role**: Ginger Zee is a well-known meteorologist who has been a prominent figure on ABC's ""Good Morning America.""
+
+2. **Find Out Who Replaced Ginger Zee**: Ginger Zee was replaced by Rob Marciano when she took on a different role. Rob Marciano is the current meteorologist on ""Good Morning America.""
+
+3. **Identify Fill-In Meteorologists**: On ""Good Morning America,"" various meteorologists may fill in for Rob Marciano when he is unavailable. Common fill-in meteorologists include:
+   - Amy Freeze
+   - Ginger Zee (when she is available)
+   - Other meteorologists from ABC News or local affiliates.
+
+4. **Conclusion**: The specific meteorologist who fills in for Rob Marciano can vary, but Amy Freeze is one of the notable meteorologists who occasionally fills in for him.
+
+So, the answer is that Amy Freeze occasionally fills in for Rob Marciano, the meteorologist who replaced Ginger Zee.",0.0,False,4,False,False,True,True
+multihop,zero_shot_cot,In Ancient Egyptian religion how would a citizen be weighted to decide if they where worthy of damnation and would face the torment in the lake of fire ?,against the feather of truth,"In Ancient Egyptian religion, the process of determining whether a person was worthy of entering the afterlife or faced punishment was primarily conducted through a ritual known as the ""Weighing of the Heart."" Here’s a step-by-step breakdown of how this process worked:
+
+1. **Death and Preparation**: Upon death, the individual’s body was mummified, and they were buried with various items to aid them in the afterlife. This included amulets, food, and other goods.
+
+2. **Journey to the Afterlife**: The deceased would embark on a journey through the Duat (the underworld), facing various challenges and obstacles along the way.
+
+3. **Arrival at the Hall of Ma'at**: The deceased would arrive at the Hall of Ma'at, where the Weighing of the Heart ceremony took place. This hall was presided over by Osiris, the god of the afterlife, and Ma'at, the goddess of truth and justice.
+
+4. **The Heart vs. the Feather**: The heart of the deceased, which was believed to hold their thoughts, deeds, and moral character, was placed on one side of a scale. On the other side, a feather from the goddess Ma'at was placed. The feather represented truth and justice.
+
+5. **The Weighing Process**: The scales were balanced to determine the outcome. If the heart was lighter than or equal to the feather, it indicated that the individual had lived a virtuous life and was deemed worthy of entering the afterlife.
+
+6. **Judgment**: If the heart was heavier than the feather, it signified that the person had committed sins and led a life contrary to Ma'at. In this case, the heart would be devoured by Ammit, a fearsome creature that was part crocodile, lion, and hippopotamus. This act would result in the individual facing eternal damnation, often described as a form of torment in the lake of fire.
+
+7. **Outcome**: Those who passed the judgment would be granted access to the Field of Reeds, a paradise where they could enjoy eternal peace and happiness. Those who failed would face annihilation, effectively ceasing to exist.
+
+This process reflects the importance of morality, truth, and justice in Ancient Egyptian beliefs about the afterlife and the consequences of one's actions during life.",0.0,False,7,True,False,False,True
+multihop,zero_shot_cot,Which town near the county border with North Yorkshire was this Lancashire mill (closed in 1979 and demolished) located?,Barnoldswick,"To determine the town near the county border with North Yorkshire where the Lancashire mill was located, we can follow these steps:
+
+1. **Identify the County Border**: First, we need to recognize the counties involved. The mill is in Lancashire, and it is near the border with North Yorkshire.
+
+2. **Research Towns Near the Border**: We should look for towns in Lancashire that are close to the North Yorkshire border. Some towns that are near this border include:
+   - Clitheroe
+   - Accrington
+   - Nelson
+   - Burnley
+   - Colne
+
+3. **Consider Historical Context**: Since the mill closed in 1979 and was demolished, we should consider towns that historically had a significant number of mills, particularly in the textile industry, which was prominent in Lancashire.
+
+4. **Narrow Down Options**: Among the towns listed, Clitheroe is particularly notable as it is quite close to the North Yorkshire border. 
+
+5. **Final Decision**: Based on the proximity to the North Yorkshire border and the historical context of textile mills in the area, the town near the county border with North Yorkshire where the Lancashire mill was located is likely **Clitheroe**.
+
+Thus, the answer is **Clitheroe**.",0.0,False,6,True,False,True,True
+multihop,zero_shot_cot,"The Prodigal Daughter, though a book about an American, is by a novelist of what nationality?",English,"To determine the nationality of the novelist who wrote ""The Prodigal Daughter,"" we can follow these steps:
+
+1. **Identify the Book**: ""The Prodigal Daughter"" is a novel written by Jeffrey Archer.
+
+2. **Research the Author**: Jeffrey Archer is a well-known author and politician.
+
+3. **Determine Nationality**: Jeffrey Archer is British.
+
+4. **Conclusion**: Although ""The Prodigal Daughter"" is about an American character, the novelist, Jeffrey Archer, is of British nationality.
+
+Therefore, the answer is that the novelist is British.",0.0,False,4,True,False,True,True
+multihop,zero_shot_cot,At what height does State Route 160 start?,4145 ft,"To determine the height at which State Route 160 starts, we need to consider the geographical context of the route. State Route 160 is located in the state of Nevada and runs from the California border to the town of Ely.
+
+1. **Identify the Starting Point**: The southern terminus of State Route 160 is at the California border, near the town of Pahrump, Nevada.
+
+2. **Research Elevation**: The elevation at the starting point (near Pahrump) is approximately 2,600 feet (792 meters) above sea level.
+
+3. **Conclusion**: Therefore, State Route 160 starts at an elevation of about 2,600 feet.
+
+If you need more specific details or additional context about the route, feel free to ask!",0.0,False,3,True,False,True,True
+multihop,zero_shot_cot,The alcoholic drink that shares a name with Quintessentially Unreal's 1996 album is commonly reffered to in historical literature as what?,the green fairy,"To answer the question, we need to identify the alcoholic drink that shares a name with Quintessentially Unreal's 1996 album. 
+
+1. **Identify the Album**: First, we need to find out the name of the album released by Quintessentially Unreal in 1996. After some research, we find that the album is titled ""Absinthe.""
+
+2. **Identify the Alcoholic Drink**: The drink that shares this name is absinthe, which is a highly alcoholic spirit derived from botanicals, including the flowers and leaves of wormwood, along with anise and fennel.
+
+3. **Historical Literature Reference**: Now, we need to determine how absinthe is referred to in historical literature. Absinthe has often been referred to as ""the Green Fairy"" or ""la fée verte"" in French literature. This nickname comes from its green color and the mythos surrounding its consumption, particularly in the 19th and early 20th centuries.
+
+Putting this all together, the alcoholic drink that shares a name with Quintessentially Unreal's 1996 album ""Absinthe"" is commonly referred to in historical literature as ""the Green Fairy.""",0.25,False,4,True,False,False,True
+multihop,zero_shot_cot,"What actor replaced the Welch actor born in 1978 who played Robin Hood in the first season of ""Once upon a Time""?",Sean Maguire,"To answer the question, we need to identify the actor born in 1978 who played Robin Hood in the first season of ""Once Upon a Time"" and then find out who replaced him.
+
+1. **Identify the actor born in 1978**: The actor who played Robin Hood in the first season of ""Once Upon a Time"" is **Sean Maguire**, who was born on April 18, 1976, not 1978. However, the actor who played Robin Hood in the later seasons is **Tom Ellis**, who was born on November 17, 1978.
+
+2. **Determine the replacement**: Sean Maguire played Robin Hood starting in Season 2 of ""Once Upon a Time."" He was not replaced in the first season, as he did not play the character then. However, if we consider the character's appearances, Sean Maguire continued to portray Robin Hood throughout the series.
+
+3. **Conclusion**: Since there seems to be a misunderstanding in the question regarding the actor's birth year and the seasons, the actor who played Robin Hood in the first season is not Sean Maguire, but rather the character was introduced later. Sean Maguire is the actor associated with Robin Hood in the series, and he did not have a replacement for that role.
+
+Therefore, the answer to the question is that there was no replacement for the actor who played Robin Hood in the first season, as the character was not portrayed by anyone else at that time.",0.0,False,10,True,False,True,True
+multihop,zero_shot_cot,"Which year was the more recent engine series, the Honda K or Honda H, introduced?",2001,"To determine which engine series was introduced more recently between the Honda K series and the Honda H series, we can follow these steps:
+
+1. **Identify the Honda K Series**: The Honda K series engines were introduced in the early 2000s. Specifically, the K20 engine, which is one of the most well-known in this series, was first introduced in 2001.
+
+2. **Identify the Honda H Series**: The Honda H series engines were introduced earlier, in the 1990s. The H22 engine, for example, was introduced in 1992.
+
+3. **Compare the Introduction Years**: 
+   - The K series started in 2001.
+   - The H series started in 1992.
+
+4. **Conclusion**: Since the K series was introduced in 2001 and the H series in 1992, the more recent engine series is the **Honda K series**.",0.07407407407407407,True,5,True,False,True,True
+multihop,zero_shot_cot,Who is the film dedicated to that Paramount Classics and MTV Films co-purchased the rights to?,Sam Phillips,"To determine who the film is dedicated to that Paramount Classics and MTV Films co-purchased the rights to, we need to identify the specific film in question. 
+
+1. **Identify the Film**: The film that is often associated with Paramount Classics and MTV Films is ""The Blair Witch Project."" This film was a significant independent horror film that gained widespread attention.
+
+2. **Check Dedication**: ""The Blair Witch Project"" is dedicated to the memory of the film's crew members, particularly to the filmmakers who worked on the project.
+
+3. **Conclusion**: Therefore, the film is dedicated to the memory of the crew members involved in its production.
+
+If you have a specific film in mind or need information about a different film, please provide more details!",0.0,False,3,True,False,True,True
+multihop,zero_shot_cot,What are some foods that may have been served at the Hawaiin Cottage?,"poi, Kalua pig, poke, lomi salmon, opihi, haupia","To determine what foods may have been served at the Hawaiian Cottage, we can consider several factors, including traditional Hawaiian cuisine, popular dishes in Hawaiian restaurants, and the general theme of a Hawaiian-themed establishment. Here’s a step-by-step breakdown:
+
+1. **Traditional Hawaiian Ingredients**: 
+   - **Pork**: Kalua pork is a traditional dish made by slow-cooking pork in an underground oven (imu).
+   - **Fish**: Fresh fish like mahi-mahi, ono, and ahi are commonly used in Hawaiian dishes.
+   - **Taro**: Used to make poi, a staple food in Hawaiian culture.
+   - **Coconut**: Used in various forms, such as coconut milk or shredded coconut.
+
+2. **Popular Hawaiian Dishes**:
+   - **Loco Moco**: A dish consisting of rice topped with a hamburger patty, fried egg, and gravy.
+   - **Poke**: A raw fish salad typically made with cubed fish, soy sauce, sesame oil, and various seasonings.
+   - **Huli Huli Chicken**: Grilled chicken marinated in a sweet and savory sauce.
+   - **Spam Musubi**: A sushi-like snack made with rice and Spam wrapped in seaweed.
+
+3. **Side Dishes and Accompaniments**:
+   - **Macaroni Salad**: A common side dish in Hawaiian plate lunches.
+   - **Rice**: Often served as a base for many dishes.
+   - **Tropical Fruits**: Such as pineapple, mango, and papaya, which are often served fresh or in salads.
+
+4. **Desserts**:
+   - **Haupia**: A coconut milk-based dessert that is often served as a pudding or pie.
+   - **Malasadas**: Portuguese doughnuts that are popular in Hawaii, often coated in sugar.
+
+5. **Beverages**:
+   - **Tropical Juices**: Such as guava, passion fruit, and pineapple juice.
+   - **Mai Tai**: A popular tropical cocktail made with rum, lime juice, and orgeat syrup.
+
+By combining these elements, we can create a picture of the types of foods that may have been served at the Hawaiian Cottage, focusing on traditional and popular Hawaiian dishes, sides, desserts, and beverages.",0.0,False,5,True,False,False,True
+multihop,zero_shot_cot,In what year was the coach who led the 2007 South Carolina Gamecocks football team in his third season as USC head coach born?,1945,"To determine the year the coach who led the 2007 South Carolina Gamecocks football team was born, we first need to identify who that coach was. 
+
+1. **Identify the Coach**: The head coach of the South Carolina Gamecocks in 2007 was Steve Spurrier.
+
+2. **Find Spurrier's Birth Year**: Steve Spurrier was born on April 20, 1945.
+
+3. **Conclusion**: Therefore, the year Steve Spurrier was born is 1945.
+
+So, the answer is **1945**.",0.33333333333333337,True,4,True,False,True,True
+multihop,zero_shot_cot,What team did Travis Cortez Mays play on which currently compete in the Big 12 Conference.?,Texas Longhorns men's basketball team,"To determine which team Travis Cortez Mays played on that currently competes in the Big 12 Conference, we can follow these steps:
+
+1. **Identify Travis Cortez Mays**: He is a former college basketball player known for his time at the University of Texas at Austin.
+
+2. **Determine the Team**: Travis Mays played for the Texas Longhorns men's basketball team.
+
+3. **Check Current Conference Affiliation**: The University of Texas at Austin is a member of the Big 12 Conference.
+
+4. **Conclusion**: Therefore, the team that Travis Cortez Mays played on, which currently competes in the Big 12 Conference, is the Texas Longhorns.
+
+So, the answer is: **Texas Longhorns**.",0.3333333333333333,False,4,True,False,True,True
+multihop,zero_shot_cot,"Which film does ""Naked Weapon"" follow in the ""Naked"" series?","""Naked Killer""","To determine which film ""Naked Weapon"" follows in the ""Naked"" series, we need to look at the titles and release order of the films in that series.
+
+1. **Identify the ""Naked"" series**: The ""Naked"" series includes films that typically have ""Naked"" in their titles. The most notable films in this series are:
+   - ""Naked Killer"" (1992)
+   - ""Naked Weapon"" (2002)
+
+2. **Check the release order**: 
+   - ""Naked Killer"" was released first in 1992.
+   - ""Naked Weapon"" was released later in 2002.
+
+3. **Conclusion**: Since ""Naked Weapon"" was released after ""Naked Killer,"" it follows ""Naked Killer"" in the ""Naked"" series.
+
+Therefore, ""Naked Weapon"" follows ""Naked Killer"" in the ""Naked"" series.",0.33333333333333337,True,4,True,False,True,True
+multihop,zero_shot_cot,Which award David Hersey had got for Equus a play by Peter Shaffer ?,Outstanding Lighting Design,"To determine which award David Hersey received for his work on ""Equus,"" a play by Peter Shaffer, we can follow these steps:
+
+1. **Identify the Play**: ""Equus"" is a play written by Peter Shaffer that premiered in 1973. It explores complex themes involving religion, psychology, and the nature of belief.
+
+2. **Recognize David Hersey's Role**: David Hersey is a renowned lighting designer who worked on the original production of ""Equus."" His contributions to the play were significant in creating the atmosphere and enhancing the storytelling.
+
+3. **Research Awards**: David Hersey received the Tony Award for Best Lighting Design for his work on ""Equus."" The Tony Awards are prestigious accolades given for excellence in Broadway theatre.
+
+4. **Confirm the Award**: The specific award that David Hersey won for ""Equus"" is the Tony Award for Best Lighting Design, which he received in 1975.
+
+In summary, David Hersey received the Tony Award for Best Lighting Design for his work on ""Equus.""",0.2,False,4,False,False,False,True
+multihop,zero_shot_cot,which Mexican and American film actress is Ethel Houbiers  French voice of ,Salma Hayek Pinault,"To determine which Mexican and American film actress Ethel Houbiers is the French voice of, we can follow these steps:
+
+1. **Identify Ethel Houbiers**: Ethel Houbiers is known for her work as a voice actress, particularly in dubbing films into French.
+
+2. **Research her roles**: We need to look into the specific films or characters that Ethel Houbiers has voiced in French. 
+
+3. **Focus on the actresses**: Since the question specifies a Mexican and American film actress, we should consider prominent actresses from both countries who might have been dubbed by Houbiers.
+
+4. **Cross-reference**: Once we have a list of potential actresses, we can cross-reference to see if Ethel Houbiers is indeed the voice of any of them in French versions of their films.
+
+After conducting this research, we find that Ethel Houbiers is known for being the French voice of **Salma Hayek**, who is a well-known Mexican and American actress. 
+
+Thus, the answer is: **Salma Hayek**.",0.4444444444444444,False,4,False,False,True,True
+multihop,zero_shot_cot,"What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",The Colomac Mine,"To determine which mine was operated by Royal Oak Mines at an earlier date, we need to look at the operational history of both the Kemess Mine and the Colomac Mine.
+
+1. **Kemess Mine**: The Kemess Mine, located in British Columbia, Canada, began production in 1998. It was primarily a gold and copper mine.
+
+2. **Colomac Mine**: The Colomac Mine, located in the Northwest Territories, Canada, was operated by Royal Oak Mines starting in 1990. It was primarily a gold mine.
+
+Now, comparing the two:
+
+- The Colomac Mine was operated by Royal Oak Mines starting in **1990**.
+- The Kemess Mine began production in **1998**.
+
+Since 1990 is earlier than 1998, we can conclude that the **Colomac Mine** was operated by Royal Oak Mines at an earlier date than the Kemess Mine.",0.0,False,2,False,False,False,True
+multihop,zero_shot_cot,Are The Man from Snowy River II and Miracle of the White Stallions filmed in different countries?,yes,"To determine if ""The Man from Snowy River II"" and ""Miracle of the White Stallions"" were filmed in different countries, we can look at the filming locations for each movie.
+
+1. **The Man from Snowy River II**:
+   - This film, also known as ""The Man from Snowy River: Arena Spectacular,"" was primarily filmed in Australia. The original ""The Man from Snowy River"" was set in the Australian high country, and the sequel continues this theme.
+
+2. **Miracle of the White Stallions**:
+   - This film was produced by Walt Disney and is based on the true story of the Lipizzaner horses. It was primarily filmed in Austria, particularly around the Spanish Riding School in Vienna.
+
+Now, comparing the two:
+
+- ""The Man from Snowy River II"" was filmed in **Australia**.
+- ""Miracle of the White Stallions"" was filmed in **Austria**.
+
+Since Australia and Austria are different countries, we can conclude that **yes, ""The Man from Snowy River II"" and ""Miracle of the White Stallions"" were filmed in different countries**.",0.0,False,2,False,False,False,True
+multihop,zero_shot_cot,Do Lush and P.O.D. both consist of four band members?,yes,"To determine if both Lush and P.O.D. consist of four band members, we can look at the history and lineup of each band.
+
+1. **Lush**: 
+   - Lush was formed in 1987 and is known for its contributions to the shoegaze and alternative rock genres. 
+   - The classic lineup of Lush consisted of four members: Miki Berenyi (vocals, guitar), Emma Anderson (guitar, vocals), Phil King (bass), and Chris Acland (drums). 
+   - Therefore, Lush does consist of four band members.
+
+2. **P.O.D. (Payable on Death)**:
+   - P.O.D. is a Christian nu-metal band formed in 1992. 
+   - The band's lineup has varied over the years, but the most recognized lineup includes four members: Sonny Sandoval (vocals), Marcos Curiel (guitar), Traa Daniels (bass), and Wuv Bernardo (drums).
+   - Thus, P.O.D. also consists of four band members.
+
+In conclusion, both Lush and P.O.D. consist of four band members.",0.0,False,2,True,False,True,True
+multihop,zero_shot_cot,What actor from the show Murphy Brown also had a role in a show with fellow actor Steve Howey? ,Christopher Rich,"To answer the question, we need to identify an actor from the show ""Murphy Brown"" and then find out if that actor appeared in a show with Steve Howey.
+
+1. **Identify actors from ""Murphy Brown"":** The main cast includes Candice Bergen (Murphy Brown), Faith Ford (Corky Sherwood), Charles Kimbrough (Jim Dial), and others.
+
+2. **Identify shows featuring Steve Howey:** Steve Howey is known for his role in ""Shameless,"" where he played Kevin Ball. He has also appeared in other shows, but ""Shameless"" is one of his most notable roles.
+
+3. **Check for connections:** We need to see if any of the actors from ""Murphy Brown"" appeared in ""Shameless"" or any other show with Steve Howey.
+
+4. **Research connections:** 
+   - Candice Bergen did not appear in ""Shameless.""
+   - Faith Ford did not appear in ""Shameless.""
+   - Charles Kimbrough did not appear in ""Shameless.""
+   - However, **Joe Regalbuto**, who played Frank Fontana on ""Murphy Brown,"" appeared in ""Shameless"" in a guest role.
+
+5. **Conclusion:** The actor from ""Murphy Brown"" who also had a role in a show with Steve Howey is **Joe Regalbuto**.",0.0,False,6,True,False,True,True
+multihop,zero_shot_cot,What year was Playford B Power Station permanently closed in by its Australian operator?,2015,"To determine the year Playford B Power Station was permanently closed by its Australian operator, we can follow these steps:
+
+1. **Identify the Power Station**: Playford B Power Station is a coal-fired power station located in South Australia.
+
+2. **Research Closure Information**: We need to find specific information regarding the closure date of Playford B. This can typically be found in historical records, news articles, or official announcements from the operator.
+
+3. **Check Reliable Sources**: Look for credible sources such as government reports, energy industry publications, or the operator's official website.
+
+4. **Find the Closure Year**: After researching, we find that Playford B Power Station was permanently closed in the year **2016**.
+
+Thus, the answer is that Playford B Power Station was permanently closed in **2016**.",0.0,False,4,False,False,True,True
+multihop,zero_shot_cot,Which English actor starred in the 1995 american romantic drama film The Scarlet Letter alongside Demi Moore and Robert Duvall?,Gary Oldman,"To find the English actor who starred in the 1995 American romantic drama film ""The Scarlet Letter"" alongside Demi Moore and Robert Duvall, we can follow these steps:
+
+1. **Identify the film**: We know the film is ""The Scarlet Letter,"" which was released in 1995.
+
+2. **Check the cast**: The main cast includes Demi Moore, Robert Duvall, and an English actor.
+
+3. **Research the cast**: Looking up the cast list for ""The Scarlet Letter,"" we find that the English actor in question is Gary Oldman.
+
+4. **Confirm the details**: Gary Oldman played the role of Reverend Dimmesdale in the film.
+
+Thus, the English actor who starred in ""The Scarlet Letter"" alongside Demi Moore and Robert Duvall is **Gary Oldman**.",0.1904761904761905,True,4,False,False,True,True
+multihop,zero_shot_cot,"Which tennis player is older, Emilio Sánchez or Andrei Olhovskiy?",Emilio Ángel Sánchez Vicario,"To determine which tennis player is older between Emilio Sánchez and Andrei Olhovskiy, we need to look up their birthdates.
+
+1. **Emilio Sánchez**: He was born on July 29, 1969.
+2. **Andrei Olhovskiy**: He was born on January 1, 1969.
+
+Now, let's compare their birthdates:
+
+- Andrei Olhovskiy was born earlier in the same year (January 1, 1969).
+- Emilio Sánchez was born later in the same year (July 29, 1969).
+
+Since January comes before July, Andrei Olhovskiy is older than Emilio Sánchez.
+
+**Conclusion**: Andrei Olhovskiy is older than Emilio Sánchez.",0.3333333333333333,False,2,False,False,True,True
+multihop,zero_shot_cot,Henderson Executive Airport got its name in 1996 when it was purchased by Clark County to be used as a reliever airport for an airport named after what politican?,U.S. Senator Pat McCarran,"To determine the name of the politician after whom the airport was named, we can follow these steps:
+
+1. **Identify the Airport**: Henderson Executive Airport is located in Henderson, Nevada, and serves as a reliever airport for the Las Vegas area.
+
+2. **Reliever Airport Purpose**: A reliever airport is designed to reduce congestion at a primary airport. In this case, Henderson Executive Airport was intended to relieve traffic from a larger airport.
+
+3. **Primary Airport**: The primary airport that Henderson Executive Airport serves is McCarran International Airport, which is the main airport for Las Vegas.
+
+4. **Politician's Name**: McCarran International Airport is named after Senator Pat McCarran, who served in the U.S. Senate from 1933 to 1954.
+
+5. **Conclusion**: Therefore, Henderson Executive Airport was named in 1996 when it was purchased by Clark County to serve as a reliever airport for McCarran International Airport, which is named after Senator Pat McCarran.
+
+Thus, the answer is **Senator Pat McCarran**.",0.5,False,5,True,False,True,True
+multihop,zero_shot_cot,"Where is the county seat for people living in Henderson Point, Mississippi?","Gulfport, Biloxi","To determine the county seat for people living in Henderson Point, Mississippi, we can follow these steps:
+
+1. **Identify the Location**: Henderson Point is located in the state of Mississippi.
+
+2. **Determine the County**: Henderson Point is situated in Hancock County.
+
+3. **Find the County Seat**: The county seat of Hancock County is Bay St. Louis.
+
+Therefore, the county seat for people living in Henderson Point, Mississippi, is Bay St. Louis.",0.0,False,3,True,False,True,True
+multihop,zero_shot_cot,Carrie Coon plays Margo Dunne in a 2014 film set in what state?,Missouri,"To answer the question, we need to identify the film in which Carrie Coon plays the character Margo Dunne. 
+
+1. **Identify the Film**: Carrie Coon plays Margo Dunne in the film ""Gone Girl,"" which was released in 2014.
+
+2. **Setting of the Film**: ""Gone Girl"" is primarily set in the state of Missouri.
+
+3. **Conclusion**: Therefore, the state in which the film ""Gone Girl"" is set is Missouri.
+
+So, the answer is Missouri.",0.33333333333333337,True,3,True,False,True,True
+multihop,zero_shot_cot,What do both Spider-Man and Spider-Man in film have in comman,comic,"To analyze what both Spider-Man (the character from comic books) and Spider-Man in film have in common, we can break it down into several key aspects:
+
+1. **Character Origin**:
+   - Both versions originate from the same source material created by Stan Lee and Steve Ditko in 1962. The character is Peter Parker, a high school student who gains spider-like abilities after being bitten by a radioactive spider.
+
+2. **Powers and Abilities**:
+   - In both the comics and films, Spider-Man possesses superhuman strength, agility, and the ability to cling to walls. He also has a ""spider-sense"" that alerts him to danger.
+
+3. **Costume**:
+   - The iconic red and blue costume is a staple in both mediums. While there may be variations in design, the general color scheme and spider emblem are consistent.
+
+4. **Core Themes**:
+   - Both portray themes of responsibility, sacrifice, and the struggle of balancing personal life with superhero duties. The famous phrase ""With great power comes great responsibility"" is central to the character's ethos in both formats.
+
+5. **Supporting Characters**:
+   - Key supporting characters, such as Aunt May, Mary Jane Watson, and J. Jonah Jameson, appear in both the comics and films, contributing to Peter Parker's story and development.
+
+6. **Villains**:
+   - Iconic villains like Green Goblin, Doctor Octopus, and Venom are present in both the comics and films, often serving as significant challenges for Spider-Man.
+
+7. **Setting**:
+   - Both versions are primarily set in New York City, which plays a crucial role in the character's identity and adventures.
+
+8. **Character Development**:
+   - Both the comics and films explore Peter Parker's growth from a teenager into an adult, dealing with the complexities of life, love, and heroism.
+
+9. **Cultural Impact**:
+   - Spider-Man has become a cultural icon in both comics and films, influencing various media, merchandise, and adaptations, including animated series and video games.
+
+By examining these aspects, we can see that both Spider-Man in comics and in film share a rich and consistent foundation that has allowed the character to resonate with audiences across different platforms.",0.0,True,9,False,False,False,True
+multihop,zero_shot_cot,"Which has more species, Sonerila or Scaevola?",Sonerila,"To determine which genus has more species, Sonerila or Scaevola, we can follow these steps:
+
+1. **Define the Genera**: 
+   - **Sonerila**: This is a genus of flowering plants in the family Melastomataceae, primarily found in tropical regions.
+   - **Scaevola**: This is a genus in the family Goodeniaceae, which includes many species commonly known as ""fan flowers"" and is found in Australia and the Pacific Islands.
+
+2. **Research the Number of Species**:
+   - For **Sonerila**, the number of recognized species is relatively small, with estimates generally ranging from about 50 to 100 species, depending on the source.
+   - For **Scaevola**, the number of recognized species is significantly higher, with estimates ranging from about 100 to over 200 species.
+
+3. **Compare the Numbers**:
+   - Based on the available data, Scaevola has a higher number of species compared to Sonerila.
+
+4. **Conclusion**: 
+   - Scaevola has more species than Sonerila.
+
+Thus, the answer is that **Scaevola has more species than Sonerila**.",0.0,False,4,False,False,True,True
+multihop,zero_shot_cot,"What party was Johan Henrik Deuntzer a part of before the party that translates to the ""Radical Left?""","Liberal ""Venstre"" party","To determine the political party Johan Henrik Deuntzer was part of before the party that translates to the ""Radical Left,"" we can follow these steps:
+
+1. **Identify Johan Henrik Deuntzer's Political Background**: Johan Henrik Deuntzer was a Danish politician known for his involvement in various political movements.
+
+2. **Understand the ""Radical Left"" Party**: The party that translates to the ""Radical Left"" in Denmark is known as the ""Radikale Venstre."" This party has its roots in the early 20th century and is associated with liberal and progressive policies.
+
+3. **Research Deuntzer's Political Affiliations**: Before joining the Radikale Venstre, Deuntzer was associated with the ""Venstre"" party, which is a liberal party in Denmark. 
+
+4. **Conclusion**: Therefore, before being part of the party that translates to the ""Radical Left,"" Johan Henrik Deuntzer was part of the ""Venstre"" party.
+
+In summary, Johan Henrik Deuntzer was part of the ""Venstre"" party before joining the ""Radikale Venstre"" (Radical Left).",0.1904761904761905,False,4,True,False,True,True
+multihop,zero_shot_cot,What other film did the star of 127 Hours act in?,Pineapple Express,"Sure! Let's break this down step by step.
+
+1. **Identify the star of ""127 Hours"":** The main star of ""127 Hours"" is James Franco, who plays the role of Aron Ralston.
+
+2. **Look for other films featuring James Franco:** James Franco has appeared in numerous films. Some notable ones include:
+   - ""Pineapple Express"" (2008)
+   - ""The Disaster Artist"" (2017)
+   - ""Spider-Man"" (2002) and its sequels, where he played Harry Osborn.
+   - ""Spring Breakers"" (2012)
+
+3. **Choose one film:** For example, we can mention ""Pineapple Express,"" which is a popular comedy film where James Franco plays the character Saul Silver.
+
+So, to answer your question: James Franco, the star of ""127 Hours,"" also acted in ""Pineapple Express.""",0.21052631578947367,True,3,True,False,True,True
+multihop,zero_shot_cot,What school was the actress who appeared with Michelle Williams in the last play by Russian playwright Anton Chekhov attending when she was signed on for a talent holding deal?,Juilliard School,"To answer your question, we need to identify the actress who appeared with Michelle Williams in the last play by Anton Chekhov and then find out what school she was attending when she signed a talent holding deal.
+
+1. **Identify the Play**: The last play by Anton Chekhov is ""The Cherry Orchard.""
+
+2. **Identify the Actress**: Michelle Williams starred in a production of ""The Cherry Orchard"" on Broadway. The actress who appeared alongside her in that production is **Jessica Chastain**.
+
+3. **Jessica Chastain's Background**: Jessica Chastain attended the **Juilliard School**. 
+
+4. **Talent Holding Deal**: Jessica Chastain was signed to a talent holding deal while she was still a student at Juilliard.
+
+So, the answer to your question is that Jessica Chastain was attending the **Juilliard School** when she was signed on for a talent holding deal.",0.0,False,5,True,False,True,True
+multihop,zero_shot_cot,What is the capacity of the stadium that is the home ground of the Lahore Eagles?,"27,000","To determine the capacity of the stadium that is the home ground of the Lahore Eagles, we can follow these steps:
+
+1. **Identify the Home Ground**: The Lahore Eagles are a cricket team based in Lahore, Pakistan. Their home ground is the Gaddafi Stadium.
+
+2. **Research the Capacity of Gaddafi Stadium**: We need to find out the seating capacity of Gaddafi Stadium.
+
+3. **Check Reliable Sources**: According to various reliable sources, Gaddafi Stadium has a seating capacity of approximately 27,000 spectators.
+
+4. **Conclusion**: Therefore, the capacity of the stadium that is the home ground of the Lahore Eagles (Gaddafi Stadium) is about 27,000.
+
+So, the final answer is that the capacity of the Gaddafi Stadium, home ground of the Lahore Eagles, is approximately 27,000.",0.16666666666666669,True,4,True,False,True,True
+multihop,zero_shot_cot,St Dionis Backchurch was rebuilt after a major conflagration that consumed how many parish churches?,87,"To answer the question about St Dionis Backchurch and the number of parish churches consumed by a major conflagration, we can follow these steps:
+
+1. **Identify the Event**: The major conflagration refers to the Great Fire of London, which occurred in 1666.
+
+2. **Determine the Impact**: The Great Fire of London destroyed a significant number of buildings, including many churches.
+
+3. **Find Specific Information**: Historical records indicate that the fire destroyed around 87 parish churches in the City of London.
+
+4. **Focus on St Dionis Backchurch**: St Dionis Backchurch was one of the churches that were rebuilt after the fire.
+
+5. **Conclusion**: Therefore, St Dionis Backchurch was rebuilt after the Great Fire of London, which consumed approximately 87 parish churches.
+
+So, the answer is that the conflagration consumed **87 parish churches**.",0.16666666666666669,True,5,True,False,True,True
+multihop,zero_shot_cot,"What career did the British actor born in 1965  and star of Lock, Stock and Two Smoking Barrels have before acting?",professional footballer,"To answer the question, we need to identify the British actor born in 1965 who starred in ""Lock, Stock and Two Smoking Barrels."" 
+
+1. **Identify the Actor**: The actor in question is Jason Statham, who was born on July 26, 1967. However, since the question specifies 1965, we should consider another actor. The correct actor is actually Vinnie Jones, who was born on January 5, 1965.
+
+2. **Career Before Acting**: Vinnie Jones was a professional footballer (soccer player) before he transitioned into acting. He played for several clubs, including Wimbledon, where he gained fame for his tough playing style.
+
+3. **Conclusion**: Therefore, the British actor born in 1965 who starred in ""Lock, Stock and Two Smoking Barrels"" is Vinnie Jones, and his career before acting was as a professional footballer.",0.12121212121212122,True,3,True,False,True,True
+multihop,zero_shot_cot,Curt Menefee is the host of the Fox network's NFL show with co-host Michael Anthony Strahan who spent his entire 15-year career with what team?,New York Giants,"To answer the question, we need to identify the team with which Michael Strahan spent his entire 15-year NFL career. 
+
+1. **Identify Michael Strahan**: Michael Strahan is a former professional American football player who played as a defensive end.
+
+2. **Determine his NFL career**: Strahan played in the NFL for 15 seasons.
+
+3. **Identify the team**: Michael Strahan played his entire career with the New York Giants.
+
+So, the answer is that Michael Strahan spent his entire 15-year career with the New York Giants.",0.2857142857142857,True,3,False,False,True,True
+multihop,zero_shot_cot,Lake Wales Ridge National Wildlife Refuge is on the US route that runs between a city in what Florida county?,Polk,"To determine the Florida county that contains Lake Wales Ridge National Wildlife Refuge, we can follow these steps:
+
+1. **Identify the Location of Lake Wales Ridge National Wildlife Refuge**: The refuge is located in central Florida.
+
+2. **Research the Specific County**: Lake Wales Ridge National Wildlife Refuge is primarily located in Polk County, Florida.
+
+3. **Identify the US Route**: The US route that runs through this area is US Route 27, which connects various cities in Florida.
+
+4. **Confirm the City**: The city that is often associated with Lake Wales Ridge National Wildlife Refuge is Lake Wales, which is also located in Polk County.
+
+Thus, the answer is that Lake Wales Ridge National Wildlife Refuge is on the US route that runs between a city in **Polk County, Florida**.",0.07692307692307693,True,4,False,False,True,True
+multihop,zero_shot_cot,"Which film director is younger, Robert Z. Leonard or Sinclair Hill?",Sinclair Hill,"To determine which film director is younger between Robert Z. Leonard and Sinclair Hill, we need to look at their birth dates.
+
+1. **Robert Z. Leonard** was born on February 2, 1889.
+2. **Sinclair Hill** was born on December 24, 1888.
+
+Now, let's compare their birth years:
+
+- Robert Z. Leonard: 1889
+- Sinclair Hill: 1888
+
+Since 1889 is later than 1888, Robert Z. Leonard is younger than Sinclair Hill.
+
+Therefore, the answer is that **Robert Z. Leonard is younger than Sinclair Hill**.",0.2666666666666667,True,2,True,False,True,True
+multihop,zero_shot_cot,What city is between Normanby le Wold and the A46 Junction between Lincoln and Grimsby?,Caistor is a town,"To find the city located between Normanby le Wold and the A46 Junction between Lincoln and Grimsby, we can follow these steps:
+
+1. **Identify the Locations**:
+   - **Normanby le Wold**: This is a small village located in Lincolnshire, England.
+   - **A46 Junction**: The A46 is a major road that runs from the south of England to the north, and there are junctions along this route. The specific junction between Lincoln and Grimsby would be near the town of Caistor.
+
+2. **Determine the Route**:
+   - From Normanby le Wold, you would typically travel south towards the A46. The A46 runs in a north-south direction, connecting Lincoln and Grimsby.
+
+3. **Identify the City**:
+   - The city that lies between Normanby le Wold and the A46 junction is **Lincoln**. Lincoln is located to the south of Normanby le Wold and is a significant city in the region.
+
+4. **Conclusion**:
+   - Therefore, the city located between Normanby le Wold and the A46 Junction between Lincoln and Grimsby is **Lincoln**.",0.22222222222222224,False,4,True,False,True,True
+multihop,zero_shot_cot,Milo Parker starred in which 2014 movie alongside Gillian Anderson?,Robot Overlords,"To find out which 2014 movie starred Milo Parker alongside Gillian Anderson, we can follow these steps:
+
+1. **Identify Milo Parker's Filmography**: We need to look at the movies that Milo Parker was involved in during 2014.
+
+2. **Check Gillian Anderson's Filmography**: We also need to see which movies Gillian Anderson was in during the same year.
+
+3. **Find Overlap**: We will look for a movie that features both actors in 2014.
+
+After conducting this research, we find that the movie is **""Robot Overlords.""** This film features both Milo Parker and Gillian Anderson. 
+
+So, the answer is **""Robot Overlords.""**",0.5,True,3,False,False,True,True
+multihop,zero_shot_cot,The Lady Craved Excitement was a film that featured the British character actor originally of what nationality?,South African-born,"To answer the question about the film ""The Lady Craved Excitement"" and the nationality of the British character actor featured in it, we can follow these steps:
+
+1. **Identify the Film**: ""The Lady Craved Excitement"" is a film that was released in 1931.
+
+2. **Research the Cast**: We need to find out which British character actor is prominently featured in this film. 
+
+3. **Determine the Actor's Nationality**: Once we identify the actor, we can look into their background to determine their original nationality.
+
+4. **British Character Actor**: A notable British character actor from that era is **Henry Kendall**, who is often associated with British cinema.
+
+5. **Nationality of Henry Kendall**: Henry Kendall was born in England, which means he is of British nationality.
+
+6. **Conclusion**: Since the question asks for the original nationality of the British character actor featured in ""The Lady Craved Excitement,"" we conclude that the actor is British, and thus his original nationality is British.
+
+Therefore, the answer is that the British character actor featured in ""The Lady Craved Excitement"" is originally of British nationality.",0.0,False,6,True,False,True,True
+multihop,zero_shot_cot,...Ready for It? is a Taylor Swift song from the album scheduled to be released on what date?,"November 10, 2017","To determine the release date of the album that includes the song ""...Ready for It?"" by Taylor Swift, we can follow these steps:
+
+1. **Identify the Album**: The song ""...Ready for It?"" is from Taylor Swift's album ""Reputation.""
+
+2. **Release Date of the Album**: ""Reputation"" was released on November 10, 2017.
+
+Therefore, the album that includes ""...Ready for It?"" was scheduled to be released on **November 10, 2017**.",0.3,True,2,True,False,True,True
+multihop,zero_shot_cot,"Jal Pari, which translated in another language refers to which legendary creature which are sometimes associated with perilous events such as floods, storm,s shipwrecks, and drownings?",A mermaid,"To answer the question about ""Jal Pari,"" we can break it down step by step:
+
+1. **Understanding the term ""Jal Pari"":** The term ""Jal Pari"" is derived from Hindi and Urdu, where ""Jal"" means ""water"" and ""Pari"" means ""fairy"" or ""spirit."" Therefore, ""Jal Pari"" can be translated as ""water fairy"" or ""water spirit.""
+
+2. **Identifying the legendary creature:** In various cultures, water spirits or fairies are often associated with perilous events such as floods, storms, shipwrecks, and drownings. 
+
+3. **Associating with folklore:** In many mythologies, water spirits can be linked to mermaids or similar creatures. Mermaids are often depicted as beautiful beings who can lure sailors to their doom, which aligns with the idea of perilous events.
+
+4. **Conclusion:** Based on the translation and the associations, ""Jal Pari"" refers to a creature similar to a mermaid, which is a legendary creature known for being associated with dangerous events in water.
+
+Thus, the answer is that ""Jal Pari"" translates to ""mermaid,"" a legendary creature associated with perilous events such as floods, storms, shipwrecks, and drownings.",0.15384615384615385,False,4,True,False,True,True
+multihop,zero_shot_cot,What is the brand who makes canned meats that had its own cook off in Austin until 2007?,Hormel Foods Corporation,"To identify the brand that makes canned meats and had its own cook-off in Austin until 2007, we can follow these steps:
+
+1. **Identify Canned Meat Brands**: We start by thinking of popular brands known for canned meats. Some well-known brands include Spam, Hormel, and Libby's.
+
+2. **Consider Cook-Offs**: Next, we need to think about which of these brands might have hosted a cook-off. Cook-offs are often associated with specific products, and Spam is particularly known for its cook-offs.
+
+3. **Focus on Spam**: Spam has a history of sponsoring events and cook-offs, particularly in places like Austin, Texas. The Spam cook-off was a notable event that celebrated recipes using Spam.
+
+4. **Check the Timeline**: The question specifies that the cook-off continued until 2007, which aligns with the history of Spam events.
+
+Based on this reasoning, the brand that makes canned meats and had its own cook-off in Austin until 2007 is **Spam**.",0.0,False,5,True,False,False,True
+multihop,zero_shot_cot,"Multiculturalism in the Netherlands reached new heights following the murder in 2002, in part, with what Dutch politician, civil servant, socialogist and professor who formed his own party?","Wilhelmus Simon Petrus Fortuijn, known as Pim Fortuyn","To answer the question, we need to identify the Dutch politician who was murdered in 2002 and had a significant impact on multiculturalism in the Netherlands. 
+
+1. **Identify the Politician**: The politician in question is Pim Fortuyn. He was a controversial figure known for his outspoken views on immigration and multiculturalism.
+
+2. **Context of the Murder**: Pim Fortuyn was assassinated on May 6, 2002, just days before the Dutch general elections. His murder shocked the nation and led to increased discussions about multiculturalism and immigration policies in the Netherlands.
+
+3. **Political Impact**: Fortuyn was known for his criticism of the existing multicultural policies and for advocating for a more nationalist approach. He formed his own political party, the Pim Fortuyn List (Lijst Pim Fortuyn, LPF), which gained significant support in the elections following his death.
+
+4. **Conclusion**: The Dutch politician, civil servant, sociologist, and professor who formed his own party and whose murder in 2002 led to new heights in discussions about multiculturalism in the Netherlands is **Pim Fortuyn**.",0.18181818181818182,False,4,False,False,True,True
+multihop,zero_shot_cot,"Which movie directed by James Gunn portrayed the fictional character, Ego the Living Planet?",Guardians of the Galaxy Vol. 2,"To determine which movie directed by James Gunn features the character Ego the Living Planet, we can follow these steps:
+
+1. **Identify James Gunn's Filmography**: James Gunn is known for directing several films, particularly in the Marvel Cinematic Universe (MCU).
+
+2. **Focus on the MCU**: Among his notable works, he directed the ""Guardians of the Galaxy"" series.
+
+3. **Identify the Character**: Ego the Living Planet is a character from Marvel Comics. He is known for being a celestial being that embodies a planet.
+
+4. **Locate the Specific Film**: Ego the Living Planet appears in ""Guardians of the Galaxy Vol. 2,"" which was released in 2017 and directed by James Gunn.
+
+5. **Confirm the Details**: In ""Guardians of the Galaxy Vol. 2,"" Ego is portrayed by actor Kurt Russell and plays a significant role in the storyline.
+
+Based on this reasoning, the movie directed by James Gunn that features Ego the Living Planet is **""Guardians of the Galaxy Vol. 2.""**",0.0,False,5,False,False,False,True
+multihop,zero_shot_cot,Which film was not a 3D computer-animation Cars 3 or Smith!?,Smith!,"To determine which film was not a 3D computer-animation, let's analyze both titles:
+
+1. **Cars 3**: This film is part of the ""Cars"" franchise produced by Pixar Animation Studios. It is a 3D computer-animated film, released in 2017.
+
+2. **Smith!**: This title is less well-known and could refer to various projects. However, if we consider the context of animation, ""Smith!"" is not widely recognized as a 3D computer-animated film.
+
+Based on this analysis, **Smith!** is the film that was not a 3D computer-animation, while **Cars 3** is confirmed to be a 3D computer-animated film.",0.07142857142857142,True,2,False,False,False,True
+multihop,zero_shot_cot,The city that hosted the Olympics where Taiwan competed as Chinese Taipei is situated at the confluence of what two rivers?,Bow River and the Elbow River,"To answer the question, we need to identify the city that hosted the Olympics where Taiwan competed as ""Chinese Taipei."" 
+
+1. **Identify the Olympics**: Taiwan has competed as ""Chinese Taipei"" in the Olympics since 1984 due to political reasons. The first Olympics where they participated under this name was the 1984 Summer Olympics held in Los Angeles, USA.
+
+2. **Determine the location**: Los Angeles is located in California, USA.
+
+3. **Identify the rivers**: Now, we need to find out what two rivers converge in Los Angeles. The city is primarily associated with the Los Angeles River, which flows through the city. However, it does not have a significant confluence with another major river within the city itself.
+
+4. **Confluence of rivers**: While Los Angeles does not have a well-known confluence of two major rivers, it is situated near the confluence of the Los Angeles River and the San Gabriel River in the broader region. However, the San Gabriel River does not flow directly through the city.
+
+5. **Conclusion**: The question may be slightly misleading, as Los Angeles itself does not have a prominent confluence of two rivers within the city limits. The main river is the Los Angeles River, and while it is near other rivers, they do not converge in the city itself.
+
+Thus, the answer to the question is that Los Angeles is primarily associated with the **Los Angeles River**, and while it is near the **San Gabriel River**, they do not directly confluence within the city.",0.14634146341463414,False,6,True,False,True,True
+multihop,zero_shot_cot,Penny Rae Bridges starred in a television sitcom with what other actor?,Ben Savage,"To answer the question about Penny Rae Bridges and the television sitcom she starred in, we need to identify her and the sitcom she was part of. 
+
+1. **Identify Penny Rae Bridges**: Penny Rae Bridges is an actress known for her work in television.
+
+2. **Determine the sitcom**: Penny Rae Bridges is best known for her role in the sitcom ""The Bridges of Madison County."" However, she is more commonly associated with the show ""The Brady Bunch,"" where she played the character of Jan Brady.
+
+3. **Identify her co-star**: In ""The Brady Bunch,"" Penny Rae Bridges starred alongside several actors, but the most notable co-star would be Florence Henderson, who played Carol Brady, or Barry Williams, who played Greg Brady.
+
+4. **Conclusion**: Therefore, Penny Rae Bridges starred in a television sitcom with actors like Florence Henderson or Barry Williams.
+
+If you are looking for a specific co-star, please clarify, and I can provide more detailed information!",0.0,False,4,True,False,True,True
+multihop,zero_shot_cot,Were Ulrich Walter and Léopold Eyharts both from Germany?,no,"To determine if Ulrich Walter and Léopold Eyharts are both from Germany, we can look at their nationalities and backgrounds.
+
+1. **Ulrich Walter**: He is a German astronaut and physicist. He was born in Germany, specifically in the city of Ulm, and he is known for his work with the German Aerospace Center (DLR) and his missions with NASA.
+
+2. **Léopold Eyharts**: He is a French astronaut. He was born in France and is associated with the French space agency CNES (Centre National d'Études Spatiales).
+
+Now, comparing their nationalities:
+- Ulrich Walter is from Germany.
+- Léopold Eyharts is from France.
+
+Since Léopold Eyharts is not from Germany, the answer to the question is **no**, they are not both from Germany.",0.09523809523809523,True,2,False,False,False,True
+multihop,zero_shot_cot,"Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",Christopher Haden-Guest,"To determine who has a wider scope of profession between Christopher Guest and Roman Karmen, we need to analyze their careers and contributions in detail.
+
+1. **Christopher Guest**:
+   - **Profession**: Christopher Guest is a filmmaker, actor, comedian, and musician.
+   - **Notable Works**: He is known for his work in mockumentary films such as ""This Is Spinal Tap,"" ""Best in Show,"" ""A Mighty Wind,"" and ""For Your Consideration."" He often collaborates with a group of actors and musicians, creating a unique style of comedy.
+   - **Music**: Guest is also a talented musician and has contributed to the soundtracks of his films, often incorporating original songs.
+   - **Acting**: He has acted in various films and television shows, showcasing his versatility as a performer.
+   - **Writing and Directing**: Guest has written and directed several films, further expanding his creative scope.
+
+2. **Roman Karmen**:
+   - **Profession**: Roman Karmen was a Soviet filmmaker and documentarian.
+   - **Notable Works**: He is known for his documentary films, particularly those that captured historical events and social issues. His work often focused on the human experience during significant historical moments, such as World War II.
+   - **Cinematography**: Karmen was also recognized for his cinematographic skills and his ability to tell compelling stories through documentary filmmaking.
+   - **Legacy**: His contributions are significant in the realm of documentary filmmaking, particularly in the Soviet context.
+
+3. **Comparison**:
+   - **Scope of Work**: Christopher Guest has a broader range of professions, as he is involved in acting, directing, writing, and music. His work spans multiple genres, including comedy and music, and he has a significant presence in both film and television.
+   - **Focus of Work**: Roman Karmen's work is more specialized in documentary filmmaking, focusing on historical and social themes. While his contributions are important, they are more limited in scope compared to Guest's diverse career.
+
+4. **Conclusion**: Based on the analysis, Christopher Guest has a wider scope of profession than Roman Karmen due to his multifaceted career in various aspects of entertainment, including film, television, and music.",0.0,False,4,False,False,True,True

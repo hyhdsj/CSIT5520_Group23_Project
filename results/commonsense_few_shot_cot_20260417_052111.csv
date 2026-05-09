@@ -1,0 +1,647 @@
+dataset,prompt_type,question,ground_truth,model_response,f1_score,exact_match,reasoning_steps,has_has_step_keywords,has_has_calculation,has_has_conclusion,has_is_coherent
+commonsense,few_shot_cot,"What is likely to happen to someone who is learning?
+
+A. overconfidence
+B. effectiveness
+C. knowing more
+D. head grows larger
+E. growth",knowing more,"Reasoning: When someone is learning, they typically gain new knowledge and skills. This process often leads to an increase in understanding and competence, which can be described as ""knowing more."" Additionally, learning can contribute to personal development and improvement, which can be referred to as ""growth."" However, the most direct and relevant answer to the question about what is likely to happen to someone who is learning is that they will ""know more."" 
+
+Answer: C. knowing more",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"A gentleman is carrying equipment for golf, what is he likely to have?
+
+A. club
+B. assembly hall
+C. meditation center
+D. meeting
+E. church",club,"Reasoning: A gentleman carrying equipment for golf is likely to have items specifically related to the sport of golf. Among the options provided, ""club"" refers to a golf club, which is a primary piece of equipment used in the game. The other options (assembly hall, meditation center, meeting, church) do not relate to golf equipment. Therefore, the most logical answer is A. club.
+
+Answer: A. club",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"The man working in the attic swatted away a bee, but soon the single bee was an entire what?
+
+A. swarm
+B. pack
+C. countryside
+D. soft drink
+E. field of flowers",swarm,"Reasoning: The phrase ""the single bee was an entire"" suggests that the answer should relate to a group or collection of bees. Among the options provided, ""swarm"" is the term commonly used to describe a large group of bees. The other options do not relate to bees in a meaningful way. Therefore, the correct answer is A. swarm.
+
+Answer: A. swarm",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"If a person with mental illness stops treatment what will likely happen?
+
+A. managed
+B. dancing
+C. recur
+D. effectively treated
+E. cause suffering",recur,"Reasoning: If a person with mental illness stops treatment, it is likely that their symptoms will return or worsen. This is often referred to as a recurrence of the illness. Therefore, the most appropriate answer is C. recur, as it indicates that the mental health issues are likely to come back without ongoing treatment. Additionally, stopping treatment can also lead to increased suffering, which aligns with option E. cause suffering, but the primary outcome is the recurrence of symptoms. 
+
+Answer: C. recur",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"The program kept getting errors, the amateur end user began to what?
+
+A. get mad
+B. compile
+C. debug
+D. write code
+E. get frustrated",get frustrated,"Reasoning: The question describes a situation where an amateur end user is experiencing errors with a program. In this context, the most appropriate response would be to address the emotional reaction or the actions taken in response to the errors. 
+
+- Option A (get mad) and Option E (get frustrated) both reflect emotional responses to encountering errors, but ""get frustrated"" is a more common and specific reaction in this context.
+- Option B (compile) and Option C (debug) are technical actions that might be taken by someone with more experience, but the question specifies an ""amateur end user,"" suggesting they may not have the skills to debug or compile effectively.
+- Option D (write code) implies a proactive approach that may not be applicable to someone who is simply facing errors without the necessary skills.
+
+Given the context of an amateur user facing errors, the most fitting answer is E (get frustrated).
+
+Answer: E",0.0,False,0,False,False,False,True
+commonsense,few_shot_cot,"Sometimes a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath why?
+
+A. flooding
+B. drowning
+C. wet skin
+D. get wet
+E. rash",rash,"Reasoning: While a person may have a fear of water or dislike being wet, taking a bath is important for personal hygiene. Bathing helps to clean the skin, remove dirt, and prevent skin issues such as rashes. Therefore, the most relevant reason for ensuring they have a bath is to avoid skin problems. Among the options provided, ""E. rash"" is the most appropriate answer as it directly relates to the importance of maintaining skin health through bathing.
+
+Answer: E. rash",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Where is a great place to buy fresh fruit?
+
+A. san francisco
+B. refrigerator
+C. big box retailer
+D. tree
+E. market",market,"Reasoning: A great place to buy fresh fruit would typically be a location where fresh produce is sold. Among the options provided, ""market"" (E) is the most suitable choice, as markets often specialize in fresh fruits and vegetables. While ""big box retailer"" (C) may also sell fruit, it is not specifically known for fresh produce like a market is. The other options, such as ""refrigerator"" (B) and ""tree"" (D), do not represent places to buy fruit. Therefore, the best answer is E. market.  
+Answer: E. market",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Which large land mass is home to the most monkeys?
+
+A. amazon basin
+B. friend's house
+C. lift number 3
+D. research laboratory
+E. african continent",african continent,"To determine which large land mass is home to the most monkeys, we need to consider the options provided:
+
+A. Amazon Basin - This area is known for its rich biodiversity, including various species of monkeys.
+
+B. Friend's house - This is not a large land mass and is unlikely to be home to many monkeys.
+
+C. Lift number 3 - This is not a land mass and does not have monkeys.
+
+D. Research laboratory - This is also not a land mass and typically does not house monkeys in large numbers.
+
+E. African continent - This continent is known for having a wide variety of monkey species, including baboons, macaques, and many others.
+
+Reasoning: The Amazon Basin and the African continent are both large land masses that are home to monkeys. However, the African continent is known to have a greater diversity and population of monkey species compared to the Amazon Basin. Therefore, the African continent is the best answer.
+
+Answer: E. african continent",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did it put it?
+
+A. trash
+B. floor
+C. subway
+D. ground
+E. lawn",trash,"Reasoning: The question describes Billy balled up the newspaper after reading it during his commute. The most logical place for him to put a balled-up newspaper would be in the trash, as it is common to dispose of waste in that manner. The other options (floor, subway, ground, lawn) do not typically represent a place where one would intentionally leave a balled-up newspaper. Therefore, the best answer is A. trash. 
+
+Answer: A. trash",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"How does going jogging generally affect one's self esteem?
+
+A. feel better
+B. feel pride
+C. sweating
+D. ocean
+E. arthritis",feel better,"Reasoning: Going jogging generally leads to physical activity, which can improve mood and boost self-esteem. It can make a person feel better about themselves and instill a sense of pride in their accomplishments. Therefore, the most relevant options are A (feel better) and B (feel pride). However, the primary effect on self-esteem is that it helps individuals feel better about themselves. 
+
+Answer: A. feel better",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Minerals can be obtained in what way for a person who avoids leafy greens?
+
+A. multivitamin
+B. farm
+C. michigan
+D. earth
+E. ore",multivitamin,"To determine how a person who avoids leafy greens can obtain minerals, we need to analyze the options provided.
+
+A. multivitamin - This is a supplement that can provide essential vitamins and minerals that one might miss from their diet, especially if they avoid certain food groups like leafy greens.
+
+B. farm - While a farm produces food, it does not directly provide a method for obtaining minerals without specifying what is grown or harvested.
+
+C. michigan - This is a location and does not relate to obtaining minerals.
+
+D. earth - While minerals are found in the earth, this option does not specify how a person can obtain them.
+
+E. ore - Ore refers to naturally occurring solid material from which a metal or valuable mineral can be extracted. However, it is not a direct source for a person to obtain minerals for dietary needs.
+
+Reasoning: The best option for a person who avoids leafy greens to obtain minerals is through a multivitamin, as it directly provides the necessary nutrients that might be lacking in their diet.
+
+Answer: A. multivitamin",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?
+
+A. gay bar
+B. market
+C. grocery store
+D. refrigerator
+E. container",gay bar,"Reasoning: The question is asking for a location where it would be unwise to insult someone by calling them a fruit. A gay bar is a place where the term ""fruit"" could be seen as a playful or affectionate term within the LGBTQ+ community, making it potentially inappropriate to use as an insult. Therefore, it is probably not the smartest place to do it. 
+
+Answer: A. gay bar",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"The extremely large cargo plane could only land at a specialized runway, these were only located at a what?
+
+A. back yard
+B. bowling alley
+C. city
+D. military base
+E. fashion show",military base,"To determine where the extremely large cargo plane could land, we need to consider the characteristics of each option provided. 
+
+A. Back yard - This is typically too small and not designed for landing large aircraft.
+B. Bowling alley - This is also not suitable for landing a plane, as it is a recreational facility.
+C. City - While cities have airports, they are not specialized runways for large cargo planes.
+D. Military base - Military bases often have specialized runways designed to accommodate large cargo planes.
+E. Fashion show - This is not a location suitable for landing an aircraft.
+
+Based on this reasoning, the most appropriate answer is D. military base, as it is the only option that typically has the necessary infrastructure for landing an extremely large cargo plane.
+
+Answer: D. military base",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"If you own a cat where is the last place you'd want to find it?
+
+A. trouble
+B. dog's mouth
+C. backyard
+D. nature
+E. home",dog's mouth,"Reasoning: The last place you'd want to find your cat would likely be somewhere dangerous or harmful to it. Among the options given, ""dog's mouth"" (B) is the most concerning, as it implies a threat to the cat's safety. Therefore, the last place you'd want to find your cat is in a dog's mouth. 
+
+Answer: B. dog's mouth",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"John loved to paint houses.  How did he usually do it?
+
+A. clothes get stained
+B. with brush
+C. wallpaper
+D. electrical circuit
+E. draw",with brush,"Reasoning: The question asks how John usually painted houses. The most relevant option is ""with brush,"" as it directly relates to the act of painting. The other options do not pertain to painting houses. Therefore, the answer is B. 
+Answer: B",0.0,False,0,True,False,True,True
+commonsense,few_shot_cot,"Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?
+
+A. shady places
+B. screened porch
+C. pots
+D. ceramics
+E. clay pot",shady places,"Reasoning: Ficus trees are known for their broad leaves, which provide shade. When planted in a yard, they create areas that are cooler and more comfortable during the summer months. Therefore, the correct answer is A. shady places, as this directly relates to the benefit of planting Ficus in a yard. 
+
+Answer: A. shady places",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?
+
+A. economic boom
+B. advance knowledge
+C. produce sound
+D. teach
+E. follow instructions",advance knowledge,"To answer the question, we need to identify the word that best completes the sentence logically. The sentence suggests that despite having quick access to something, people are becoming duller. 
+
+Let's analyze the options:
+
+A. economic boom - This does not relate to the ability to answer questions quickly.
+B. advance knowledge - This fits well because ""advance knowledge"" implies having access to information, which aligns with the context of computers allowing quick answers.
+C. produce sound - This is unrelated to answering questions.
+D. teach - While teaching can involve answering questions, it does not directly relate to the context of quick access to information.
+E. follow instructions - This is also not directly related to the ability to answer questions quickly.
+
+Reasoning: The phrase ""access to this"" suggests something that enhances knowledge or information. ""Advance knowledge"" is the most fitting option as it directly relates to the ability to answer questions quickly, yet the statement implies that this access is not preventing people from becoming duller.
+
+Answer: B. advance knowledge",1.0,True,0,True,False,False,True
+commonsense,few_shot_cot,"Sam couldn't get back to sleep because of a dream he had.  It was a what?
+
+A. awake
+B. horror
+C. dreamworker
+D. reality
+E. nightmare",nightmare,"Reasoning: The question states that Sam couldn't get back to sleep because of a dream he had. The context suggests that the dream was likely unsettling or disturbing, which aligns with the term ""nightmare."" The other options do not fit the context of a dream that causes someone to be unable to sleep. Therefore, the most appropriate answer is E. nightmare. 
+
+Answer: E. nightmare",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Sam was a stranger.  Even so, Mark treated him like what?
+
+A. friend
+B. family
+C. known person
+D. park
+E. outsider",family,"To determine how Mark treated Sam, we need to analyze the context of the question. The question states that Sam was a stranger, which implies that he was not someone Mark knew well. However, the phrasing ""treated him like"" suggests that Mark treated Sam in a positive or familiar manner despite their lack of prior acquaintance.
+
+Now, let's evaluate the options:
+
+A. friend - This suggests a positive relationship, which aligns with treating someone well.
+B. family - This also suggests a close and caring relationship, which could fit the context.
+C. known person - This implies familiarity, which contradicts the fact that Sam was a stranger.
+D. park - This is not relevant to the context of treating someone.
+E. outsider - This suggests a negative or distant relationship, which does not fit the idea of treating someone well.
+
+Given the context that Mark treated Sam positively despite him being a stranger, the best options are A (friend) and B (family). However, treating someone like a ""friend"" is a more common expression in this context.
+
+Answer: A. friend",0.0,False,0,False,False,False,True
+commonsense,few_shot_cot,"Where can you find a number of wind instruments together in public?
+
+A. music store
+B. create music
+C. zoo
+D. music room
+E. symphony",symphony,"To find a number of wind instruments together in public, we need to consider the options provided:
+
+A. music store - This is a place where instruments are sold, but it may not always be a public space where many instruments are displayed together.
+
+B. create music - This is a general activity and does not specify a location.
+
+C. zoo - A zoo is primarily for animals and does not typically feature wind instruments.
+
+D. music room - This is usually a private or educational space, not necessarily public.
+
+E. symphony - A symphony is a public performance that features a large number of musicians, including many wind instruments, playing together.
+
+Reasoning: The best option for finding a number of wind instruments together in a public setting is E, as a symphony involves a public performance with many musicians, including those playing wind instruments.
+
+Answer: E. symphony",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"What do humans do to other humans after death?
+
+A. celebrate
+B. burial
+C. life
+D. rebirth
+E. decomposition",burial,"Reasoning: After death, one common practice among humans is burial, which involves placing the deceased in the ground or a designated burial site. While there are other practices such as celebration of life or decomposition, the most direct answer to what humans do to other humans after death is burial. 
+Answer: B. burial",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"The shark actually counted as evidence, so where did the legal team bring it?
+
+A. court room
+B. shallow waters
+C. poker game
+D. sea world
+E. pond arena",court room,"To determine where the legal team brought the shark as evidence, we need to consider the context of a legal situation. The most logical place for a legal team to present evidence is in a courtroom. 
+
+- Option A: ""court room"" is a place where legal proceedings occur and evidence is presented.
+- Option B: ""shallow waters"" does not fit as a legal setting.
+- Option C: ""poker game"" is unrelated to legal evidence.
+- Option D: ""sea world"" is an amusement park and not a legal venue.
+- Option E: ""pond arena"" is not a recognized legal setting.
+
+Based on this reasoning, the best answer is:
+
+Answer: A. court room",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"How can someone be let into a brownstone?
+
+A. brooklyn
+B. ring
+C. subdivision
+D. bricks
+E. new york city",ring,"To determine how someone can be let into a brownstone, we need to consider the context of entering a building. The most relevant option from the list provided is ""B. ring,"" as it suggests the action of ringing a doorbell to gain entry. 
+
+Reasoning: A brownstone is a type of townhouse, often found in urban areas like New York City. To enter a brownstone, a common method is to ring the doorbell, which alerts the occupants to let the person in. The other options (A, C, D, E) do not directly relate to the action of entering a building.
+
+Answer: B. ring",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"The neighborhood had a great sense of community, there was always a crowd at the landing of the what?
+
+A. stairwell
+B. arena
+C. ocean
+D. airport
+E. apartment building",apartment building,"To determine the best answer, we need to consider the context of a ""great sense of community"" and where a crowd might gather in a neighborhood setting. 
+
+- A. **stairwell**: This is typically a private or less public space, not a common gathering place for a community.
+- B. **arena**: While an arena can host events and gatherings, it is usually a larger venue and not typically associated with a neighborhood setting.
+- C. **ocean**: This is a natural feature and not a specific location where a neighborhood crowd would gather.
+- D. **airport**: Airports are busy places, but they are not typically associated with a neighborhood community.
+- E. **apartment building**: This is a common residential setting where neighbors might gather, especially at the landing or entrance area.
+
+Given the context of community and gathering, the most fitting answer is:
+
+Answer: E. apartment building",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"Where would stones not be arranged in a path?
+
+A. quarries
+B. field
+C. park
+D. bridge
+E. made from rocks",field,"To determine where stones would not be arranged in a path, we need to analyze each option:
+
+A. **Quarries** - Quarries are places where stones are extracted, but they are not typically arranged in a path. However, stones can be found here.
+
+B. **Field** - A field is an open area, and while stones can be present, they are not usually arranged in a path.
+
+C. **Park** - Parks often have paths made of stones or gravel, so stones can be arranged in a path here.
+
+D. **Bridge** - Bridges can be made of stones or have stone paths, so stones can be arranged in a path here.
+
+E. **Made from rocks** - This phrase suggests something constructed from rocks, which could imply a path made of stones.
+
+Based on this reasoning, the best answer is:
+
+Answer: B. field",1.0,True,0,False,False,True,True
+commonsense,few_shot_cot,"Where can you store you spare linens near your socks?
+
+A. hospital
+B. chest
+C. home
+D. dresser drawers
+E. cabinet",dresser drawers,"To determine where you can store spare linens near your socks, we need to consider the options provided and their typical uses for storage.
+
+A. Hospital - This is not a typical place for personal storage of linens or socks.
+B. Chest - A chest can be used for storage, but it may not be specifically near socks.
+C. Home - This is a general term and does not specify a location for storage.
+D. Dresser drawers - Dresser drawers are commonly used to store clothing items, including socks and linens, making this a suitable option.
+E. Cabinet - While a cabinet can store linens, it is not typically associated with storing socks.
+
+Reasoning: The best option for storing spare linens near socks is D. Dresser drawers, as they are designed for clothing storage and can accommodate both items in close proximity.
+
+Answer: D. dresser drawers",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"Where do you keep extra clothing on a hike?
+
+A. person
+B. hamper
+C. closet
+D. upstairs
+E. backpack",backpack,"Reasoning: When going on a hike, it is practical to keep extra clothing in a place that is easy to carry and access. Among the options provided, a backpack is specifically designed for carrying items while hiking. Therefore, the best choice for keeping extra clothing on a hike is E. backpack. 
+
+Answer: E. backpack",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"The homeowner frowned at the price of gas, what did he have to do later?
+
+A. own home
+B. mail property tax payments
+C. board windows
+D. cut grass
+E. receive mail",cut grass,"Reasoning: The homeowner frowning at the price of gas suggests that he is concerned about expenses related to home maintenance or transportation. Among the options provided, ""mail property tax payments"" (B) is the most relevant action that a homeowner would typically need to do later, especially if they are worried about costs. The other options do not directly relate to the concern about gas prices. 
+
+Answer: B. mail property tax payments",0.0,False,0,False,False,False,True
+commonsense,few_shot_cot,"What is happening while he's playing basketball for such a long time?
+
+A. sweating
+B. pain
+C. having fun
+D. medium
+E. knee injury",sweating,"Reasoning: While playing basketball for a long time, several things can happen. Sweating (A) is a common physical response to exertion, indicating that he is working hard. He might also experience pain (B) from fatigue or strain, but this is not guaranteed. Having fun (C) is often a key reason people play sports, so it is likely he is enjoying himself. ""Medium"" (D) does not apply in this context, and a knee injury (E) is a possibility but not a certainty. The most relevant and positive experiences while playing basketball for a long time would be sweating and having fun. 
+
+Answer: A and C (sweating and having fun)",0.2857142857142857,True,0,False,False,True,True
+commonsense,few_shot_cot,"Where can you buy a magazine, paper or gum?
+
+A. bank
+B. rack
+C. bed
+D. newsstand
+E. bus depot",newsstand,"To determine where you can buy a magazine, paper, or gum, we need to analyze the options provided:
+
+A. bank - Typically, banks do not sell magazines, papers, or gum.
+B. rack - This is too vague; it could refer to a display rack, but it doesn't specify a location where these items are sold.
+C. bed - A bed is a piece of furniture and does not sell any items.
+D. newsstand - A newsstand is a place specifically designed to sell newspapers, magazines, and often snacks like gum.
+E. bus depot - While some bus depots may have vending machines or small shops, they are not primarily known for selling magazines or papers.
+
+Based on this reasoning, the best answer is D. newsstand, as it is the most appropriate location for purchasing magazines, papers, or gum.
+
+Answer: D. newsstand",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"Where can books be read?
+
+A. cabinet
+B. backpack
+C. table
+D. shelf
+E. sink",table,"Reasoning: Books can be read in a comfortable and suitable location where one can focus. Among the options provided, a table is a common place to sit and read. A cabinet and a backpack are not places to read, and a shelf is where books are stored, not read. A sink is also not a place for reading. Therefore, the best answer is C. table. 
+
+Answer: C. table",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Where do you keep musical instrument so it doesn't get scratched?
+
+A. bank
+B. orchestra
+C. case
+D. music room
+E. movie",case,"Reasoning: To keep a musical instrument safe from scratches, it is best to store it in a protective container. Among the options provided, a ""case"" is specifically designed to protect instruments from damage. While a music room may also be a safe place, it does not provide the same level of protection as a case. Therefore, the best answer is C. case.  
+Answer: C. case",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"What can eating hamburger cause immediately after eating it?
+
+A. tasty
+B. health problems
+C. eat cake
+D. indigestion
+E. gain weight",indigestion,"Eating a hamburger can lead to various immediate effects. Among the options provided, ""indigestion"" is a common immediate reaction after consuming a heavy or rich meal like a hamburger. While it may also be tasty, the question specifically asks for an immediate effect that can occur after eating. Therefore, the most appropriate answer is:
+
+Answer: D. indigestion",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"To play sports professionally you must do what very often?
+
+A. wash your clothes
+B. get in shape
+C. practice
+D. take off uniform
+E. stretch",practice,"To play sports professionally, it is essential to improve skills and performance. This requires consistent effort and dedication. Among the options provided, practicing is the most critical activity for athletes to enhance their abilities and prepare for competitions. Therefore, the correct answer is C. practice.
+
+Answer: C. practice",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Where can you buy a clock, clothing and wrenches?
+
+A. counter
+B. train station
+C. school room
+D. desk
+E. department store",department store,"To determine where you can buy a clock, clothing, and wrenches, we need to analyze the options provided:
+
+A. Counter - This is typically a surface or area for service, not a place to buy a variety of items.
+B. Train station - Generally, train stations do not sell a wide variety of items like clothing or tools.
+C. School room - A school room is for education and does not sell items.
+D. Desk - A desk is a piece of furniture and does not sell items.
+E. Department store - A department store sells a wide range of products, including clocks, clothing, and tools like wrenches.
+
+Reasoning: The only option that includes all three items (clocks, clothing, and wrenches) is E, the department store, as it is designed to offer a variety of goods.
+
+Answer: E. department store",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"What is likely to have a better school cafeteria?
+
+A. high school
+B. canteen
+C. polytechnic
+D. large room
+E. all kinds of schools",polytechnic,"To determine which option is likely to have a better school cafeteria, we can analyze each choice:
+
+A. High school - High schools often have larger student populations and may offer a wider variety of food options compared to smaller schools.
+
+B. Canteen - A canteen is typically a place where food is served, but it doesn't specify the type of school or the quality of food.
+
+C. Polytechnic - Polytechnics often cater to older students and may have better facilities, including cafeterias, due to their focus on vocational training.
+
+D. Large room - This option does not directly relate to the quality of a cafeteria; a large room could be used for various purposes and does not imply a cafeteria.
+
+E. All kinds of schools - This option suggests that every type of school has its own cafeteria, but it does not indicate which type is better.
+
+Reasoning: High schools and polytechnics are more likely to have better cafeterias due to their larger student bodies and focus on providing quality food options. A canteen is too vague, and a large room does not pertain to cafeteria quality. Therefore, the best choice is likely to be either A or C, but since polytechnics may have specialized facilities, they could be considered better.
+
+Answer: C (polytechnic)",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"By learning about the world, many poor college students gain what?
+
+A. pleasure
+B. greater mobility
+C. desire to travel
+D. global warming
+E. increased security",desire to travel,"Reasoning: By learning about the world, many poor college students gain greater mobility. This means they have more opportunities to move up in their careers and improve their living conditions. The other options do not directly relate to the benefits of education in the context of mobility and opportunities. 
+Answer: B. greater mobility",0.0,False,0,False,False,False,True
+commonsense,few_shot_cot,"A traveler laments the fact that mass transit is limited in his city when his groceries get soaked by the rain as he waits where?
+
+A. bus stop
+B. library
+C. motel
+D. airport
+E. subway",bus stop,"To determine where the traveler is waiting, we need to consider the context of mass transit and the situation described. The traveler is lamenting limited mass transit and is waiting while his groceries get soaked by the rain. 
+
+- A **bus stop** is a common place for mass transit and is typically outdoors, making it likely for someone to get wet in the rain.
+- A **library** is usually an indoor location, so it wouldn't make sense for the traveler to be waiting there in the rain.
+- A **motel** is also an indoor location, and while it may have outdoor areas, it is not a typical mass transit point.
+- An **airport** is a transit hub, but travelers usually do not wait outside in the rain; they are typically inside the terminal.
+- A **subway** station is usually underground or covered, so it would not expose someone to rain.
+
+Given these considerations, the most logical answer is:
+
+Answer: A. bus stop",1.0,True,0,False,False,True,True
+commonsense,few_shot_cot,"Why might a person be known as a liar?
+
+A. have no home
+B. false information
+C. hungry
+D. made fun of
+E. brain tumor",false information,"Reasoning: A person might be known as a liar if they consistently provide false information. This means that when they speak or share information, it is not truthful, leading others to label them as a liar. The other options do not directly relate to the concept of lying. 
+
+Answer: B. false information",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"What would you be building if you designed a place for an annoying critter to stay?
+
+A. spread disease
+B. swamp
+C. fly away
+D. cat condo
+E. bug campers",bug campers,"To determine what you would be building for an annoying critter, we need to analyze the options provided:
+
+A. spread disease - This option does not represent a physical structure or place for a critter to stay.
+B. swamp - A swamp is a natural habitat that could attract various critters, but it is not something you would design specifically for them.
+C. fly away - This option suggests movement rather than a place to stay.
+D. cat condo - A cat condo is designed for cats, which are not typically considered annoying critters.
+E. bug campers - This option suggests a place specifically designed for bugs, which are often considered annoying critters.
+
+Based on this reasoning, the most appropriate answer is E, as it directly relates to creating a space for bugs, which fits the description of an annoying critter.
+
+Answer: E. bug campers",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"Where is a statute found on a platform?
+
+A. below
+B. arena
+C. concert hall
+D. museum
+E. building",museum,"To determine where a statue is typically found on a platform, we can analyze the options provided:
+
+A. below - This option suggests a location underneath something, which is not where a statue would typically be found.
+
+B. arena - An arena is usually an open space for events, but it is not specifically known for having statues on platforms.
+
+C. concert hall - A concert hall is primarily for musical performances and does not typically feature statues on platforms.
+
+D. museum - Museums often have exhibits that include statues displayed on platforms or pedestals, making this a strong candidate.
+
+E. building - While buildings can have statues, they are not specifically known for having them on platforms.
+
+Based on this reasoning, the best answer is:
+
+Answer: D. museum",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"After killing people, the murderer went to church after feeling what?
+
+A. murder
+B. remorse
+C. religious
+D. retaliation
+E. anguish",remorse,"To determine the most appropriate answer, we need to analyze the context of the question. The question implies that the murderer experienced a feeling after committing a crime, which is typically associated with a moral or emotional response.
+
+A. **murder** - This is not a feeling; it describes the act itself.
+B. **remorse** - This refers to a deep regret or guilt for a wrong committed, which is a common emotional response after committing a crime.
+C. **religious** - This describes a state of being related to religion, not a feeling.
+D. **retaliation** - This refers to an act of revenge, not a feeling.
+E. **anguish** - This refers to severe mental or physical pain or suffering, which could be a possible feeling but is less specific than remorse in this context.
+
+Given that the murderer went to church, it suggests a search for forgiveness or a moral reckoning, which aligns closely with the feeling of remorse.
+
+Answer: B. remorse",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"What is a place that has large cable hanging overhead?
+
+A. radio shack
+B. electrical device
+C. shower
+D. substation
+E. television",substation,"Reasoning: A substation is a facility in the electrical power distribution system that often has large cables hanging overhead to transmit electricity. The other options do not typically involve large overhead cables. Therefore, the correct answer is D. substation.  
+Answer: D. substation",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"When an elderly person needs help performing daily tasks, who might they call?
+
+A. creativity
+B. hatred
+C. caregiver
+D. own house
+E. much money",caregiver,"Reasoning: When an elderly person needs help with daily tasks, they typically seek assistance from someone who is trained or capable of providing care. Among the options given, ""caregiver"" (C) is the only choice that directly relates to someone who helps with daily tasks. The other options do not pertain to assistance in this context. Therefore, the answer is C. 
+
+Answer: C. caregiver",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?
+
+A. car
+B. house
+C. offices
+D. park
+E. movie theatre",house,"Reasoning: The man wants air conditioning while watching a game on Saturday. The most likely place for him to watch a game is at home, where he can comfortably enjoy the game with air conditioning. While air conditioning can be found in cars, offices, parks, and movie theatres, the context of watching a game suggests he is likely at home. Therefore, the best answer is B. house. 
+
+Answer: B. house",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?
+
+A. city
+B. canada
+C. minnesota
+D. thermal
+E. photograph",photograph,"Reasoning: The question describes a patriotic guy with a camera who is looking for a bald eagle. Since he has a camera, it is likely that if he finds a bald eagle, he would want to take a picture of it. Therefore, the most logical action he would take is to photograph the eagle. 
+
+Answer: E. photograph",1.0,True,0,True,False,True,True
+commonsense,few_shot_cot,"Where is a human likely to go as a result of being hungry?
+
+A. eat in restaurant
+B. make bread
+C. have lunch
+D. cook dinner
+E. friends house",eat in restaurant,"Reasoning: When a human is hungry, they are likely to seek food. The options provided include various ways to satisfy hunger. 
+
+- A. eat in restaurant: This is a common choice for someone who is hungry and wants to eat out.
+- B. make bread: This is a specific action that may not be immediate for someone simply feeling hungry.
+- C. have lunch: This is a direct response to hunger, especially if it is lunchtime.
+- D. cook dinner: This is also a valid response to hunger, particularly if it is dinner time.
+- E. friends house: While visiting a friend's house could lead to eating, it is not a direct action taken due to hunger.
+
+Among these options, ""have lunch"" (C) is the most straightforward and immediate response to being hungry, as it directly addresses the need to eat.
+
+Answer: C. have lunch",0.0,False,0,False,False,False,True
+commonsense,few_shot_cot,"What is a person who is good at sports considered?
+
+A. lazy
+B. own house
+C. talented
+D. affluent
+E. reproduce",talented,"To determine what a person who is good at sports is considered, we need to analyze the options provided:
+
+A. lazy - This does not describe someone who is good at sports, as being good at sports typically requires effort and dedication.
+
+B. own house - This is unrelated to being good at sports; it refers to property ownership.
+
+C. talented - This is a fitting description, as being good at sports often implies that the person has talent in that area.
+
+D. affluent - This refers to wealth and does not directly relate to someone's ability in sports.
+
+E. reproduce - This is unrelated to sports ability and refers to biological reproduction.
+
+Based on this reasoning, the best answer is C. talented, as it directly describes a person who excels in sports.
+
+Answer: C. talented",1.0,True,0,False,False,False,True
+commonsense,few_shot_cot,"A creek could be located in the opposite for the city which is called what?
+
+A. meadow
+B. stick
+C. valley
+D. forest
+E. countryside",countryside,"To determine the correct answer, we need to understand the relationship between a creek and its geographical location in relation to a city. A creek is typically found in a low-lying area, often surrounded by land that is lower than the surrounding terrain. 
+
+Among the options provided:
+
+A. Meadow - This is an open area of grassland, which may not necessarily be low-lying.
+B. Stick - This does not relate to a geographical feature.
+C. Valley - A valley is a low area between hills or mountains, which is a common place for a creek to be found.
+D. Forest - This refers to a large area covered chiefly with trees and undergrowth, which may not specifically indicate a low-lying area.
+E. Countryside - This is a general term for rural areas, which can include various landscapes.
+
+Given that a creek is typically found in a low area, the best answer is:
+
+Answer: C. valley",0.0,False,0,False,False,False,True
+commonsense,few_shot_cot,"The man got a pail to catch the draining motor oil, where was he likely doing this at home?
+
+A. garage
+B. hardware store
+C. utility room
+D. wishing well
+E. laundry",garage,"Reasoning: The man is likely catching draining motor oil, which is typically associated with vehicles. The most common place at home for such an activity would be the garage, where cars are usually parked and maintained. While a utility room or laundry might have some tools, they are not typically associated with motor oil. A hardware store is not a home location, and a wishing well is not relevant to this context. Therefore, the best answer is A. garage. 
+
+Answer: A. garage",1.0,True,0,True,False,True,True

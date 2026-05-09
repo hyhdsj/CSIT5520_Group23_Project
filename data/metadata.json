@@ -1,0 +1,24 @@
+{
+  "datasets": {
+    "gsm8k": {
+      "config": "socratic",
+      "file": "data/processed/gsm8k_socratic.json",
+      "num_samples": 7473,
+      "size_bytes": 5842646,
+      "hash": "3a74b08e88cc85981f4798a41ca8b01e4652ab1203324b21e3fb2f719f5a1934",
+      "downloaded_at": "2026-04-15T17:33:18.219742",
+      "source": "openai/gsm8k"
+    },
+    "commonsense_qa": {
+      "file": "data/processed/commonsense_qa.json",
+      "num_samples": 1221,
+      "size_bytes": 343241,
+      "hash": "ff83f1c0dfa75496571c92543fcdc58e03d441dc2e291d263bf230e0c4c3a619",
+      "downloaded_at": "2026-04-15T17:33:24.002613",
+      "source": "tau/commonsense_qa",
+      "split": "validation"
+    }
+  },
+  "last_updated": "2026-04-15T17:33:24.002633",
+  "total_size_bytes": 0
+}

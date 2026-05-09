@@ -1,0 +1,27 @@
+{
+  "gsm8k_main": {
+    "success": true,
+    "file": "data/processed/gsm8k_main.json",
+    "num_samples": 7473,
+    "size_bytes": 4577221,
+    "cached": false
+  },
+  "gsm8k_socratic": {
+    "success": true,
+    "file": "data/processed/gsm8k_socratic.json",
+    "num_samples": 7473,
+    "size_bytes": 5842646,
+    "cached": false
+  },
+  "commonsense_qa": {
+    "success": true,
+    "file": "data/processed/commonsense_qa.json",
+    "num_samples": 1221,
+    "size_bytes": 343241,
+    "cached": false
+  },
+  "hotpotqa": {
+    "success": false,
+    "error": "Couldn't find a dataset script at /Users/huyuhang/\u5b66\u4e60/HKUST/Subjects/Sem 2/CSIT5520/Group Project/CSIT5520_Cot_Project/hotpotqa/hotpotqa/hotpotqa.py or any data file in the same directory. Couldn't find 'hotpotqa/hotpotqa' on the Hugging Face Hub either: FileNotFoundError: Dataset 'hotpotqa/hotpotqa' doesn't exist on the Hub. If the repo is private or gated, make sure to log in with `huggingface-cli login`."
+  }
+}
